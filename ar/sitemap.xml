@@ -2,55 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://Smile-wa.github.io.git/ar/categories/</loc>
+    <loc>https://Smile-wa.github.io/ar/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://Smile-wa.github.io.git/en/categories/"
+                href="https://Smile-wa.github.io/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://Smile-wa.github.io.git/categories/"
+                href="https://Smile-wa.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://Smile-wa.github.io.git/ar/categories/"
+                href="https://Smile-wa.github.io/ar/categories/"
                 />
   </url><url>
-    <loc>https://Smile-wa.github.io.git/ar/tags/</loc>
+    <loc>https://Smile-wa.github.io/ar/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://Smile-wa.github.io.git/en/tags/"
+                href="https://Smile-wa.github.io/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://Smile-wa.github.io.git/tags/"
+                href="https://Smile-wa.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://Smile-wa.github.io.git/ar/tags/"
+                href="https://Smile-wa.github.io/ar/tags/"
                 />
   </url><url>
-    <loc>https://Smile-wa.github.io.git/ar/</loc>
+    <loc>https://Smile-wa.github.io/ar/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://Smile-wa.github.io.git/en/"
+                href="https://Smile-wa.github.io/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://Smile-wa.github.io.git/"
+                href="https://Smile-wa.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://Smile-wa.github.io.git/ar/"
+                href="https://Smile-wa.github.io/ar/"
                 />
   </url>
 </urlset>

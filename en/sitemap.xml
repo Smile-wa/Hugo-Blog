@@ -2,119 +2,119 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://Smile-wa.github.io.git/en/</loc>
+    <loc>https://Smile-wa.github.io/en/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://Smile-wa.github.io.git/"
+                href="https://Smile-wa.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://Smile-wa.github.io.git/ar/"
+                href="https://Smile-wa.github.io/ar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://Smile-wa.github.io.git/en/"
+                href="https://Smile-wa.github.io/en/"
                 />
   </url><url>
-    <loc>https://Smile-wa.github.io.git/en/archives/</loc>
+    <loc>https://Smile-wa.github.io/en/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://Smile-wa.github.io.git/archives/"
+                href="https://Smile-wa.github.io/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://Smile-wa.github.io.git/en/archives/"
+                href="https://Smile-wa.github.io/en/archives/"
                 />
   </url><url>
-    <loc>https://Smile-wa.github.io.git/en/page/</loc>
+    <loc>https://Smile-wa.github.io/en/page/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://Smile-wa.github.io.git/page/"
+                href="https://Smile-wa.github.io/page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://Smile-wa.github.io.git/en/page/"
+                href="https://Smile-wa.github.io/en/page/"
                 />
   </url><url>
-    <loc>https://Smile-wa.github.io.git/en/about/</loc>
+    <loc>https://Smile-wa.github.io/en/about/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://Smile-wa.github.io.git/%E5%85%B3%E4%BA%8E/"
+                href="https://Smile-wa.github.io/%E5%85%B3%E4%BA%8E/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://Smile-wa.github.io.git/en/about/"
+                href="https://Smile-wa.github.io/en/about/"
                 />
   </url><url>
-    <loc>https://Smile-wa.github.io.git/en/categories/</loc>
+    <loc>https://Smile-wa.github.io/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://Smile-wa.github.io.git/categories/"
+                href="https://Smile-wa.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://Smile-wa.github.io.git/ar/categories/"
+                href="https://Smile-wa.github.io/ar/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://Smile-wa.github.io.git/en/categories/"
+                href="https://Smile-wa.github.io/en/categories/"
                 />
   </url><url>
-    <loc>https://Smile-wa.github.io.git/en/links/</loc>
+    <loc>https://Smile-wa.github.io/en/links/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://Smile-wa.github.io.git/%E5%8F%8B%E9%93%BE/"
+                href="https://Smile-wa.github.io/%E5%8F%8B%E9%93%BE/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://Smile-wa.github.io.git/en/links/"
+                href="https://Smile-wa.github.io/en/links/"
                 />
   </url><url>
-    <loc>https://Smile-wa.github.io.git/en/search/</loc>
+    <loc>https://Smile-wa.github.io/en/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://Smile-wa.github.io.git/search/"
+                href="https://Smile-wa.github.io/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://Smile-wa.github.io.git/en/search/"
+                href="https://Smile-wa.github.io/en/search/"
                 />
   </url><url>
-    <loc>https://Smile-wa.github.io.git/en/tags/</loc>
+    <loc>https://Smile-wa.github.io/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://Smile-wa.github.io.git/tags/"
+                href="https://Smile-wa.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://Smile-wa.github.io.git/ar/tags/"
+                href="https://Smile-wa.github.io/ar/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://Smile-wa.github.io.git/en/tags/"
+                href="https://Smile-wa.github.io/en/tags/"
                 />
   </url>
 </urlset>
