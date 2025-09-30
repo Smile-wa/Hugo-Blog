@@ -11,11 +11,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="https://Smile-wa.github.io/ar/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="https://Smile-wa.github.io/en/"
                 />
@@ -67,11 +62,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="https://Smile-wa.github.io/ar/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="https://Smile-wa.github.io/en/categories/"
                 />
@@ -105,11 +95,6 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://Smile-wa.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://Smile-wa.github.io/ar/tags/"
                 />
     <xhtml:link
                 rel="alternate"
