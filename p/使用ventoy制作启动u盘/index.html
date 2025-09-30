@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Windows11的详细安装教程">
-<title>Windows11系统安装教程</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="本教程详细介绍如何使用Ventoy工具制作支持多系统启动的U盘，无需反复格式化即可管理多个ISO镜像">
+<title>使用Ventoy制作启动U盘</title>
 
-<link rel='canonical' href='https://Smile-wa.github.io/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/'>
+<link rel='canonical' href='https://Smile-wa.github.io/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/'>
 
-<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Windows11系统安装教程">
-<meta property='og:description' content="Windows11的详细安装教程">
-<meta property='og:url' content='https://Smile-wa.github.io/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/'>
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="使用Ventoy制作启动U盘">
+<meta property='og:description' content="本教程详细介绍如何使用Ventoy工具制作支持多系统启动的U盘，无需反复格式化即可管理多个ISO镜像">
+<meta property='og:url' content='https://Smile-wa.github.io/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/'>
 <meta property='og:site_name' content='「Smile_Wang」'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-09-29T16:28:18&#43;08:00'/><meta property='article:modified_time' content='2025-09-29T16:28:18&#43;08:00'/><meta property='og:image' content='https://Smile-wa.github.io/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/Windows11.png' />
-<meta name="twitter:title" content="Windows11系统安装教程">
-<meta name="twitter:description" content="Windows11的详细安装教程"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://Smile-wa.github.io/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/Windows11.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-09-27T14:57:04&#43;08:00'/><meta property='article:modified_time' content='2025-09-27T14:57:04&#43;08:00'/><meta property='og:image' content='https://Smile-wa.github.io/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/ventoy.png' />
+<meta name="twitter:title" content="使用Ventoy制作启动U盘">
+<meta name="twitter:description" content="本教程详细介绍如何使用Ventoy工具制作支持多系统启动的U盘，无需反复格式化即可管理多个ISO镜像"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://Smile-wa.github.io/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/ventoy.png' />
     <link rel="shortcut icon" href="/favicon.jpg" />
 
     </head>
@@ -291,34 +291,37 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#前言">前言</a></li>
-    <li><a href="#一准备工作">一、准备工作</a>
+    <li><a href="#-为什么选择ventoy">🧠 为什么选择Ventoy？</a></li>
+    <li><a href="#-准备工作">📋 准备工作</a>
       <ol>
-        <li><a href="#1-硬件要求检查">1. 硬件要求检查</a></li>
-        <li><a href="#2-必备工具">2. 必备工具</a></li>
+        <li><a href="#硬件要求">硬件要求</a></li>
+        <li><a href="#软件下载">软件下载</a></li>
       </ol>
     </li>
-    <li><a href="#二创建安装介质">二、创建安装介质</a>
+    <li><a href="#-制作教程windows版">🛠️ 制作教程（Windows版）</a>
       <ol>
-        <li><a href="#下载官方镜像">下载官方镜像</a></li>
-      </ol>
-    </li>
-    <li><a href="#三开始安装">三、开始安装</a></li>
-    <li><a href="#四首次启动后的设置">四、首次启动后的设置</a>
-      <ol>
-        <li><a href="#注意事项">注意事项</a></li>
-        <li><a href="#分步设置流程">分步设置流程</a>
+        <li><a href="#步骤1安装ventoy">步骤1：安装Ventoy</a></li>
+        <li><a href="#步骤2添加iso镜像">步骤2：添加ISO镜像</a></li>
+        <li><a href="#步骤3启动系统">步骤3：启动系统</a></li>
+        <li><a href="#-高级配置技巧">⚙️ 高级配置技巧</a>
           <ol>
-            <li><a href="#1-区域与键盘布局">1. 区域与键盘布局</a></li>
-            <li><a href="#2-微软账户登录">2. 微软账户登录</a></li>
-            <li><a href="#3-隐私设置关键步骤">3. 隐私设置（关键步骤）</a></li>
-            <li><a href="#4-驱动安装">4. 驱动安装</a></li>
-            <li><a href="#5-系统激活">5. 系统激活</a></li>
+            <li><a href="#主题定制">主题定制</a></li>
           </ol>
         </li>
+        <li><a href="#-持久化存储linux系统">🎒 持久化存储（Linux系统）</a></li>
+        <li><a href="#-常用快捷键">⌨️ 常用快捷键</a></li>
+        <li><a href="#-实战应用场景">💡 实战应用场景</a>
+          <ol>
+            <li><a href="#场景1系统维护工具箱">场景1：系统维护工具箱</a></li>
+            <li><a href="#场景2多系统安装盘">场景2：多系统安装盘</a></li>
+            <li><a href="#场景3应急救援系统">场景3：应急救援系统</a></li>
+          </ol>
+        </li>
+        <li><a href="#-常见问题解决">❓ 常见问题解决</a></li>
+        <li><a href="#-使用心得">🌟 使用心得</a></li>
       </ol>
     </li>
-    <li><a href="#常见问题">常见问题</a></li>
+    <li><a href="#-资源推荐">📥 资源推荐</a></li>
   </ol>
 </nav>
         </div>
@@ -333,13 +336,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/">
-                <img src="/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/Windows11_hu_d6c76ee4c064f237.png"
-                        srcset="/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/Windows11_hu_d6c76ee4c064f237.png 800w, /p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/Windows11_hu_8d9b1759d7c9f731.png 1600w"
+            <a href="/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/">
+                <img src="/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/ventoy_hu_84cf4080669df78a.png"
+                        srcset="/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/ventoy_hu_84cf4080669df78a.png 800w, /p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/ventoy_hu_8eaf22f93061e866.png 1600w"
                         width="800" 
-                        height="450" 
+                        height="572" 
                         loading="lazy"
-                        alt="Featured image of post Windows11系统安装教程" />
+                        alt="Featured image of post 使用Ventoy制作启动U盘" />
                 
             </a>
         </div>
@@ -358,12 +361,12 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/">Windows11系统安装教程</a>
+            <a href="/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/">使用Ventoy制作启动U盘</a>
         </h2>
     
         
         <h3 class="article-subtitle">
-            Windows11的详细安装教程
+            本教程详细介绍如何使用Ventoy工具制作支持多系统启动的U盘，无需反复格式化即可管理多个ISO镜像
         </h3>
         
     </div>
@@ -384,7 +387,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Sep 29, 2025</time>
+                <time class="article-time--published">Sep 27, 2025</time>
             </div>
         
 
@@ -400,363 +403,278 @@
     <section class="article-content">
     
     
-    <h1 id="windows-11-安装指南从准备到完成的全流程">Windows 11 安装指南：从准备到完成的全流程
-</h1><p><img src="https://img.xiaowtx.dpdns.org/file/1758361044483_R-C.png"
+    <h1 id="-使用ventoy制作万能u盘启动盘一u在手装遍所有系统">🔥 使用Ventoy制作万能U盘启动盘：一U在手，装遍所有系统！
+</h1><blockquote>
+<p>无需反复格式化，一次制作永久使用！轻松管理多个系统镜像的终极解决方案</p></blockquote>
+<p><img src="https://www.ventoy.net/static/img/screen/screen_uefi.png"
 	
 	
 	
 	loading="lazy"
 	
-		alt="Windows 11 封面图"
+		alt="Ventoy多系统启动盘示意图"
 	
 	
 ></p>
-<h2 id="前言">前言
-</h2><p>Windows 11 带来了全新的界面设计和性能优化。本教程将详细介绍通过官方镜像安装Windows 11的完整流程，包含<strong>硬件检测</strong>、<strong>安装介质制作</strong>和<strong>系统配置</strong>关键步骤。</p>
-<hr>
-<h2 id="一准备工作">一、准备工作
-</h2><h3 id="1-硬件要求检查">1. 硬件要求检查
-</h3><ul>
-<li>处理器：1GHz 或更快，支持64位</li>
-<li>内存：≥4GB</li>
-<li>存储：≥64GB</li>
-<li>TPM 2.0 芯片（可通过<code>tpm.msc</code>验证）</li>
-<li>安全启动支持</li>
-<li>确保电脑开启UEFI模式</li>
-</ul>
-<blockquote>
-<p>💡 使用微软官方<a class="link" href="https://aka.ms/GetPCHealthCheckApp"  target="_blank" rel="noopener"
-    >PC Health Check</a>工具检测兼容性</p></blockquote>
-<h3 id="2-必备工具">2. 必备工具
-</h3><ul>
-<li>Ventoy启动U盘（可以参考<a class="link" href="https://blog.xwgt.xyz/posts/use-ventoy-to-create-a-multifunctional-usb-boot-disk/"  target="_blank" rel="noopener"
-    >使用Ventoy制作万能U盘启动盘：一U在手，装遍所有系统！</a>制作）。</li>
-<li>有效的Windows产品密钥（非必须，可后期激活）</li>
-</ul>
-<hr>
-<h2 id="二创建安装介质">二、创建安装介质
-</h2><h3 id="下载官方镜像">下载官方镜像
-</h3><ol>
-<li>
-<p><a class="link" href="https://go.microsoft.com/fwlink/?linkid=2156295"  target="_blank" rel="noopener"
-    >下载微软官方下载工具</a></p>
-</li>
-<li>
-<p>双击打开下载的微软官方下载软件点击“接受”<img src="https://img.xiaowtx.dpdns.org/file/1758361899990_win11%e6%9d%a1%e6%ac%be.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="win11条款.png"
-	
-	
-></p>
-</li>
-<li>
-<p>选择默认设置，点击“下一步”<img src="https://img.xiaowtx.dpdns.org/file/1758362040591_%e7%89%88%e6%9c%ac%e9%80%89%e6%8b%a9.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="版本选择.png"
-	
-	
-></p>
-</li>
-<li>
-<p>选择“IOS文件”，然后点击“下一步”<img src="https://img.xiaowtx.dpdns.org/file/1758362124635_IOS.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="IOS.png"
-	
-	
-></p>
-</li>
-<li>
-<p>选择合适的保存位置，然后点击“保存”<img src="https://img.xiaowtx.dpdns.org/file/1758362284201_%e4%b8%8b%e8%bd%bd%e4%bd%8d%e7%bd%ae.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="下载位置.png"
-	
-	
-></p>
-</li>
-<li>
-<p>等待下载完成<img src="https://img.xiaowtx.dpdns.org/file/1758362365609_%e5%bc%80%e5%a7%8b%e4%b8%8b%e8%bd%bd.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="开始下载.png"
-	
-	
-></p>
-</li>
-<li>
-<p>将下载完成的文件复制到准备好的启动U盘。</p>
-</li>
-</ol>
-<hr>
-<h2 id="三开始安装">三、开始安装
-</h2><ol>
-<li>
-<p>将复制好镜像文件的U盘插入电脑；<img src="https://img.xiaowtx.dpdns.org/file/1758420549050_%e9%95%9c%e5%83%8f%e6%8b%b7%e8%b4%9d.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="镜像拷贝.png"
-	
-	
-></p>
-</li>
-<li>
-<p>重启电脑，按快捷启动键（华硕为F8，联想为F12，其他品牌我也没用过请自行百度）进入启动项选择界面；<img src="https://img.xiaowtx.dpdns.org/file/1758444842236_01.jpg"
-	
-	
-	
-	loading="lazy"
-	
-		alt="01.jpg"
-	
-	
-></p>
-</li>
-<li>
-<p>选择UEFI开头U盘选项，按回车键确认；<img src="https://img.xiaowtx.dpdns.org/file/1758444842236_01.jpg"
-	
-	
-	
-	loading="lazy"
-	
-		alt="01.jpg"
-	
-	
-></p>
-</li>
-<li>
-<p>选择“Windows11.IOS&quot;选项，按回车键确认；<img src="https://img.xiaowtx.dpdns.org/file/1758444915412_02.jpg"
-	
-	
-	
-	loading="lazy"
-	
-		alt="02.jpg"
-	
-	
-></p>
-</li>
-<li>
-<p>选择“Boot in normal mode”选项，按回车键确认；<img src="https://img.xiaowtx.dpdns.org/file/1758444976322_03.jpg"
-	
-	
-	
-	loading="lazy"
-	
-		alt="03.jpg"
-	
-	
-></p>
-</li>
-<li>
-<p>按需求选择要安装的语言、时间和货币格式，然后点击“下一步”；<img src="https://img.xiaowtx.dpdns.org/file/1758445080812_04.avif"
-	
-	
-	
-	loading="lazy"
-	
-		alt="04.avif"
-	
-	
-></p>
-</li>
-<li>
-<p>按需选择键盘和输入法，然后点击下一步；<img src="https://img.xiaowtx.dpdns.org/file/1758445228337_05.avif"
-	
-	
-	
-	loading="lazy"
-	
-		alt="05.avif"
-	
-	
-></p>
-</li>
-<li>
-<p>点击“安装Windows11”选项，勾选“我同意删除所有内容，包括文件、应用和设置”，然后点击“下一步”；<img src="https://img.xiaowtx.dpdns.org/file/1758445293576_06.avif"
-	
-	
-	
-	loading="lazy"
-	
-		alt="06.avif"
-	
-	
-></p>
-</li>
-<li>
-<p>选择想要安装的系统版本，然后点击“下一步”；<img src="https://img.xiaowtx.dpdns.org/file/1758445462597_08.avif"
-	
-	
-	
-	loading="lazy"
-	
-		alt="08.avif"
-	
-	
-></p>
-</li>
-<li>
-<p>点击“接受”<img src="https://img.xiaowtx.dpdns.org/file/1758445523892_09.avif"
-	
-	
-	
-	loading="lazy"
-	
-		alt="09.avif"
-	
-	
-></p>
-</li>
-<li>
-<p>选择需要安装的硬盘分区（⚠️<strong>如果电脑存在多个硬盘，注意区分，避免造成数据丢失！</strong>），然后点击“下一步”；<img src="https://img.xiaowtx.dpdns.org/file/1758445575612_10.avif"
-	
-	
-	
-	loading="lazy"
-	
-		alt="10.avif"
-	
-	
-></p>
-</li>
-<li>
-<p>准备就绪后，点击“安装”<img src="https://img.xiaowtx.dpdns.org/file/1758445900441_11.avif"
-	
-	
-	
-	loading="lazy"
-	
-		alt="11.avif"
-	
-	
-></p>
-</li>
-<li>
-<p>等待安装完成，系统将自动重启；<img src="https://img.xiaowtx.dpdns.org/file/1758445969876_12.avif"
-	
-	
-	
-	loading="lazy"
-	
-		alt="12.avif"
-	
-	
-></p>
-</li>
-</ol>
-<h2 id="四首次启动后的设置">四、首次启动后的设置
-</h2><h3 id="注意事项">注意事项
-</h3><p>⚠️ <strong>网络连接</strong></p>
+<h2 id="-为什么选择ventoy">🧠 为什么选择Ventoy？
+</h2><p>传统启动盘制作工具痛点：</p>
 <ul>
-<li>如果不使用微软账户，建议跳过网络连接</li>
-<li>按 <code>Shift+F10</code> 输入 <code>OOBE\BYPASSNRO</code> 可彻底跳过联网（企业版无效）</li>
+<li>❌ 每个镜像都需要单独制作U盘</li>
+<li>🗑️ 每次制作都要格式化，U盘变&quot;一次性&quot;</li>
+<li>📁 无法同时存储多个系统镜像</li>
+<li>🔄 升级镜像需要重新制作整个U盘</li>
 </ul>
-<hr>
-<h3 id="分步设置流程">分步设置流程
-</h3><h4 id="1-区域与键盘布局">1. 区域与键盘布局
-</h4><div class="highlight"><div class="chroma">
+<p>Ventoy的革命性解决方案：</p>
+<ul>
+<li>✅ <strong>多系统共存</strong>：一个U盘同时存放Windows、Linux、PE等ISO文件</li>
+<li>🚀 <strong>即拷即用</strong>：添加新系统只需拷贝ISO文件到U盘</li>
+<li>💾 <strong>数据分离</strong>：启动分区与存储分区独立，文件更安全</li>
+<li>🆓 <strong>开源免费</strong>：持续更新，支持超过1000种ISO镜像</li>
+</ul>
+<h2 id="-准备工作">📋 准备工作
+</h2><h3 id="硬件要求">硬件要求
+</h3><ul>
+<li>USB 2.0/3.0 U盘（<strong>容量建议≥32GB</strong>）</li>
+<li>目标电脑支持UEFI/BIOS启动</li>
+</ul>
+<h3 id="软件下载">软件下载
+</h3><ol>
+<li><a class="link" href="https://www.ventoy.net/cn/download.html"  target="_blank" rel="noopener"
+    >Ventoy最新版</a></li>
+<li>所需系统镜像：
+<ul>
+<li>Windows: Win10/Win11原版ISO</li>
+<li>Linux: Ubuntu/CentOS/Debian等</li>
+<li>工具类: Hiren&rsquo;s PE/微PE/Clonezilla</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>⚠️ 重要提示：操作前备份U盘数据！安装过程会格式化U盘！</p></blockquote>
+<h2 id="-制作教程windows版">🛠️ 制作教程（Windows版）
+</h2><h3 id="步骤1安装ventoy">步骤1：安装Ventoy
+</h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
+</span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">示例选择：  
-</span></span><span class="line"><span class="cl">- 国家/地区：中国 （建议选择欧盟地区国家，因为欧盟《数字市场法案》，微软解除了大部分系统服务的强制性绑定 
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">- 输入法：微软拼音（保留美式键盘布局）
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="mf">1</span><span class="p">.</span> <span class="n">解压</span> <span class="nb">ventoy-x</span><span class="p">.</span><span class="py">x</span><span class="p">.</span><span class="nb">xx-windows</span><span class="p">.</span><span class="py">zip</span>
+</span></span><span class="line"><span class="cl"><span class="mf">2</span><span class="p">.</span> <span class="n">以管理员身份运行</span> <span class="n">Ventoy2Disk</span><span class="p">.</span><span class="py">exe</span>
+</span></span><span class="line"><span class="cl"><span class="mf">3</span><span class="p">.</span> <span class="n">在设备列表中选择你的U盘</span><span class="err">（</span><span class="n">确认容量避免选错</span><span class="err">！）</span>
+</span></span><span class="line"><span class="cl"><span class="mf">4</span><span class="p">.</span> <span class="n">选择分区类型</span><span class="err">（</span><span class="n">新电脑选GPT</span><span class="err">，</span><span class="n">旧电脑选MBR</span><span class="err">）</span>
+</span></span><span class="line"><span class="cl"><span class="mf">5</span><span class="p">.</span> <span class="n">点击</span><span class="s2">&#34;安装&#34;</span><span class="n">按钮</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h4 id="2-微软账户登录">2. 微软账户登录
-</h4><p>✅ 推荐方案：</p>
+</div><p><img src="https://img.xiaowtx.dpdns.org/file/1757920808997_ventoy.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Ventoy多系统启动盘示意图"
+	
+	
+>.</p>
+<h3 id="步骤2添加iso镜像">步骤2：添加ISO镜像
+</h3><p>安装完成后，U盘会显示两个分区：</p>
 <ul>
-<li>选择「脱机账户」→ 左下角点击「有限的体验」</li>
-<li>本地用户名避免使用中文（部分老旧软件兼容性问题）</li>
+<li><strong>EFI分区</strong>：Ventoy核心文件（不要修改）</li>
+<li><strong>数据分区</strong>：存放ISO文件</li>
 </ul>
-<p>❌ 高危操作：</p>
-<ul>
-<li>使用企业邮箱登录可能导致BitLocker自动加密</li>
-</ul>
-<h4 id="3-隐私设置关键步骤">3. 隐私设置（关键步骤）
-</h4><div class="table-wrapper"><table>
+<p>直接将下载的ISO文件复制到数据分区根目录或任意文件夹：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">U:/
+</span></span><span class="line"><span class="cl">├── 📁 ventoy/           # 配置文件目录
+</span></span><span class="line"><span class="cl">├── 🏢 Windows11.iso
+</span></span><span class="line"><span class="cl">├── 🐧 Ubuntu-22.04.iso
+</span></span><span class="line"><span class="cl">├── 🛠️ WePE_64_V2.2.iso
+</span></span><span class="line"><span class="cl">└── 💾 Clonezilla-live.iso
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="步骤3启动系统">步骤3：启动系统
+</h3><ol>
+<li>U盘插入目标电脑</li>
+<li>开机狂按启动菜单键（F12/ESC/Del等）</li>
+<li>选择<code>UEFI: [你的U盘名称]</code></li>
+<li>在Ventoy菜单中选择要启动的ISO文件</li>
+</ol>
+<hr>
+<h3 id="-高级配置技巧">⚙️ 高级配置技巧
+</h3><h4 id="主题定制">主题定制
+</h4><p>创建<code>ventoy/ventoy.json</code>文件：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;theme&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;file&#34;</span><span class="p">:</span> <span class="s2">&#34;/ventoy/theme/dark.theme&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;gfxmode&#34;</span><span class="p">:</span> <span class="s2">&#34;1920x1080&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;display_mode&#34;</span><span class="p">:</span> <span class="s2">&#34;GUI&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="-持久化存储linux系统">🎒 持久化存储（Linux系统）
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;persistence&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;image&#34;</span><span class="p">:</span> <span class="s2">&#34;/linux/ubuntu-22.04.iso&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;backend&#34;</span><span class="p">:</span> <span class="s2">&#34;/persist/ubuntu.dat&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;size&#34;</span><span class="p">:</span> <span class="s2">&#34;2048MB&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="-常用快捷键">⌨️ 常用快捷键
+</h3><div class="table-wrapper"><table>
   <thead>
       <tr>
-          <th style="text-align: left"><strong>选项</strong></th>
-          <th style="text-align: left"><strong>建议设置</strong></th>
-          <th style="text-align: left"><strong>说明</strong></th>
+          <th>按键</th>
+          <th>功能</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">诊断数据</td>
-          <td style="text-align: left">关闭</td>
-          <td style="text-align: left">减少数据上传</td>
+          <td>F1</td>
+          <td>帮助</td>
       </tr>
       <tr>
-          <td style="text-align: left">活动历史记录</td>
-          <td style="text-align: left">关闭</td>
-          <td style="text-align: left">保护隐私</td>
+          <td>F3</td>
+          <td>文件浏览器</td>
       </tr>
       <tr>
-          <td style="text-align: left">广告ID</td>
-          <td style="text-align: left">关闭</td>
-          <td style="text-align: left">降低个性化广告</td>
+          <td>F5</td>
+          <td>刷新ISO列表</td>
       </tr>
       <tr>
-          <td style="text-align: left">位置服务</td>
-          <td style="text-align: left">按需开启</td>
-          <td style="text-align: left">笔记本用户建议关闭</td>
+          <td>F6</td>
+          <td>镜像校验</td>
+      </tr>
+      <tr>
+          <td>F7</td>
+          <td>显示/隐藏文件类型说明</td>
       </tr>
   </tbody>
 </table></div>
-<h4 id="4-驱动安装">4. 驱动安装
-</h4><ul>
-<li>官方驱动下载优先级：主板官网 &gt; 微软更新 &gt; 硬件厂商官网</li>
-<li>最好不要使用“驱动精灵”、“360驱动”等第三方工具</li>
+<h3 id="-实战应用场景">💡 实战应用场景
+</h3><h4 id="场景1系统维护工具箱">场景1：系统维护工具箱
+</h4><p>U盘包含：</p>
+<ol>
+<li>微PE - Windows维护</li>
+<li>GParted - 分区工具</li>
+<li>MemTest86 - 内存检测</li>
+<li>HDAT2 - 硬盘修复</li>
+</ol>
+<h4 id="场景2多系统安装盘">场景2：多系统安装盘
+</h4><p>同时存放：</p>
+<ul>
+<li>Windows 10/11</li>
+<li>Ubuntu Desktop/Server</li>
+<li>CentOS Stream</li>
+<li>Arch Linux</li>
 </ul>
-<h4 id="5-系统激活">5. 系统激活
-</h4><ul>
-<li>以前安装过会联网自动激活</li>
-<li>首次安装推荐某宝几块钱买个激活码</li>
-<li>也可以网上搜激活工具</li>
+<h4 id="场景3应急救援系统">场景3：应急救援系统
+</h4><p>包含：</p>
+<ul>
+<li>Clonezilla - 系统备份还原</li>
+<li>Kaspersky RescueDisk - 病毒查杀</li>
+<li>SystemRescue - 灾难恢复</li>
 </ul>
-<h2 id="常见问题">常见问题
+<hr>
+<h3 id="-常见问题解决">❓ 常见问题解决
+</h3><ol>
+<li>
+<p><strong>启动时提示&quot;Secure Boot Violation&quot;</strong><br>
+✅ 解决方法：BIOS中关闭Secure Boot</p>
+</li>
+<li>
+<p><strong>某些ISO无法启动</strong><br>
+✅ 尝试：</p>
+<ul>
+<li>使用原版镜像（非修改版）</li>
+<li>更新Ventoy到最新版</li>
+<li>启用<code>Legacy BIOS</code>模式</li>
+</ul>
+</li>
+<li>
+<p><strong>U盘写入速度变慢</strong><br>
+✅ 操作建议：</p>
+<ul>
+<li>使用USB3.0及以上接口</li>
+<li>定期执行&quot;无损升级&quot;</li>
+<li>检查U盘是否使用扩容盘</li>
+</ul>
+</li>
+<li>
+<p><strong>如何更新Ventoy?</strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">运行Ventoy2Disk → 选择设备 → 点击<span class="s2">&#34;升级&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+</ol>
+<p><strong>不会影响已有ISO文件！</strong></p>
+<h3 id="-使用心得">🌟 使用心得
+</h3><p>从2020年开始使用Ventoy，我的收获：</p>
+<ul>
+<li>🗂️ 告别抽屉里的一堆启动盘（节省5个U盘！）</li>
+<li>⏱️ 新系统部署时间缩短70%</li>
+<li>🧩 轻松管理公司不同项目所需的环境</li>
+<li>🆓 再也不需要找各种启动盘制作工具</li>
+</ul>
+<p>实测数据：<br>
+传统方式制作10个系统镜像 → 需要10个U盘，耗时约2小时<br>
+Ventoy方式 → 只需1个U盘，20分钟完成部署</p>
+<h2 id="-资源推荐">📥 资源推荐
 </h2><ul>
-<li>
-<p>❌ 问题1：安装时提示「无法创建新分区」</p>
-</li>
-<li>
-<p>✅ 解决：删除所有分区后重新新建，或使用DiskPart工具清理磁盘</p>
-</li>
-<li>
-<p>❌ 问题2：启动盘无法识别</p>
-</li>
-<li>
-<p>✅ 解决：检查BIOS是否启用UEFI模式，或重新制作启动盘</p>
-</li>
+<li><a class="link" href="https://www.ventoy.net"  target="_blank" rel="noopener"
+    >Ventoy官方文档</a></li>
+<li><a class="link" href="[https://example.com]%28https://www.microsoft.com/zh-cn/software-download/windows11%29" >ISO镜像下载站</a></li>
+<li><a class="link" href="https://example.com/plugins"  target="_blank" rel="noopener"
+    >Ventoy插件合集</a> <em>(示例链接，请替换为实际URL)</em></li>
+<li><a class="link" href="https://www.ventoy.net/iso.html"  target="_blank" rel="noopener"
+    >官方支持镜像列表</a></li>
 </ul>
+<p>✍️ 最后更新：2025年09月30日</p>
 
 </section>
 
@@ -793,23 +711,23 @@
             
                 
 <article class="has-image">
-    <a href="/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/">
+    <a href="/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/">
         
         
             <div class="article-image">
-                <img src="/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/ventoy.cff845a8daa02e012817d1c2d7cae233_hu_a1072eb6f3357e66.png" 
+                <img src="/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/Windows11.0957c3e232e44ec115038f69a740f6d0_hu_ba3c2590d491c21c.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 使用Ventoy制作启动U盘"
+                        alt="Featured image of post Windows11系统安装教程"
                         
-                        data-hash="md5-z/hFqNqgLgEoF9HC18riMw==">
+                        data-hash="md5-CVfD4jLkTsEVA49pp0D20A==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">使用Ventoy制作启动U盘</h2>
+            <h2 class="article-title">Windows11系统安装教程</h2>
         </div>
     </a>
 </article>
