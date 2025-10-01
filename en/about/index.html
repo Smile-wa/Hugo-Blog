@@ -392,6 +392,25 @@
      
     
         
+    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+<link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet'/>
+<div id="waline" class="waline-container"></div>
+<style>
+    .waline-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+        --waline-font-size: var(--article-font-size);
+    }
+    .waline-container .wl-count {
+        color: var(--card-text-color-main);
+    }
+</style><script>
+    
+    Waline.init({"dark":"html[data-scheme=\"dark\"]","el":"#waline","emoji":["https://unpkg.com/@waline/emojis@1.0.1/weibo","https://unpkg.com/@waline/emojis@1.0.1/bilibili"],"lang":"zh-CN","locale":{"admin":"Smile_Wang","placeholder":"欢迎留言交流，支持Markdown语法 😊"},"pageview":true,"requiredMeta":["nick","email"],"serverURL":"https://waline.xwgt.xyz"});
+</script>
+
     
 
     <footer class="site-footer">
@@ -503,6 +522,7 @@
         document.head.appendChild(customFont);
     }());
 </script>
+
 
     </body>
 </html>
