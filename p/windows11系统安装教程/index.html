@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Windows11的详细安装教程">
+<title>Windows11系统安装教程</title>
+
+<link rel='canonical' href='https://Smile-wa.github.io/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/'>
+
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Windows11系统安装教程">
+<meta property='og:description' content="Windows11的详细安装教程">
+<meta property='og:url' content='https://Smile-wa.github.io/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/'>
+<meta property='og:site_name' content='「Smile_Wang」'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Windows11' /><meta property='article:tag' content='系统安装' /><meta property='article:published_time' content='2025-09-29T16:28:18&#43;08:00'/><meta property='article:modified_time' content='2025-09-29T16:28:18&#43;08:00'/><meta property='og:image' content='https://Smile-wa.github.io/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/Windows11.png' />
+<meta name="twitter:title" content="Windows11系统安装教程">
+<meta name="twitter:description" content="Windows11的详细安装教程"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://Smile-wa.github.io/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/Windows11.png' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_6652f6a415768e82.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🤖</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">「Smile_Wang」</a></h1>
+            <h2 class="site-description">消化所有难啃的科技干货，输出易吸收的数码营养剂！</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/585130802?spm_id_from=333.1007.0.0'
+                        target="_blank"
+                        title="Bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Bilibili</title><path d="M17.813 4.653h.854c1.51.054 2.769.578 3.773 1.574 1.004.995 1.524 2.249 1.56 3.76v7.36c-.036 1.51-.556 2.769-1.56 3.773s-2.262 1.524-3.773 1.56H5.333c-1.51-.036-2.769-.556-3.773-1.56S.036 18.858 0 17.347v-7.36c.036-1.511.556-2.765 1.56-3.76 1.004-.996 2.262-1.52 3.773-1.574h.774l-1.174-1.12a1.234 1.234 0 0 1-.373-.906c0-.356.124-.658.373-.907l.027-.027c.267-.249.573-.373.92-.373.347 0 .653.124.92.373L9.653 4.44c.071.071.134.142.187.213h4.267a.836.836 0 0 1 .16-.213l2.853-2.747c.267-.249.573-.373.92-.373.347 0 .662.151.929.4.267.249.391.551.391.907 0 .355-.124.657-.373.906zM5.333 7.24c-.746.018-1.373.276-1.88.773-.506.498-.769 1.13-.786 1.894v7.52c.017.764.28 1.395.786 1.893.507.498 1.134.756 1.88.773h13.334c.746-.017 1.373-.275 1.88-.773.506-.498.769-1.129.786-1.893v-7.52c-.017-.765-.28-1.396-.786-1.894-.507-.497-1.134-.755-1.88-.773zM8 11.107c.373 0 .684.124.933.373.25.249.383.569.4.96v1.173c-.017.391-.15.711-.4.96-.249.25-.56.374-.933.374s-.684-.125-.933-.374c-.25-.249-.383-.569-.4-.96V12.44c0-.373.129-.689.386-.947.258-.257.574-.386.947-.386zm8 0c.373 0 .684.124.933.373.25.249.383.569.4.96v1.173c-.017.391-.15.711-.4.96-.249.25-.56.374-.933.374s-.684-.125-.933-.374c-.25-.249-.383-.569-.4-.96V12.44c.017-.391.15-.711.4-.96.249-.249.56-.373.933-.373Z"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/Smile-wa'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><g fill="#181616"><path fill-rule="evenodd" clip-rule="evenodd" d="M64 1.512c-23.493 0-42.545 19.047-42.545 42.545 0 18.797 12.19 34.745 29.095 40.37 2.126.394 2.907-.923 2.907-2.047 0-1.014-.04-4.366-.058-7.92-11.837 2.573-14.334-5.02-14.334-5.02-1.935-4.918-4.724-6.226-4.724-6.226-3.86-2.64.29-2.586.29-2.586 4.273.3 6.523 4.385 6.523 4.385 3.794 6.504 9.953 4.623 12.38 3.536.383-2.75 1.485-4.628 2.702-5.69-9.45-1.075-19.384-4.724-19.384-21.026 0-4.645 1.662-8.44 4.384-11.42-.442-1.072-1.898-5.4.412-11.26 0 0 3.572-1.142 11.7 4.363 3.395-.943 7.035-1.416 10.65-1.432 3.616.017 7.258.49 10.658 1.432 8.12-5.504 11.688-4.362 11.688-4.362 2.316 5.86.86 10.187.418 11.26 2.728 2.978 4.378 6.774 4.378 11.42 0 16.34-9.953 19.938-19.427 20.99 1.526 1.32 2.886 3.91 2.886 7.88 0 5.692-.048 10.273-.048 11.674 0 1.13.766 2.458 2.922 2.04 16.896-5.632 29.07-21.574 29.07-40.365C106.545 20.56 87.497 1.512 64 1.512z"/><path d="M37.57 62.596c-.095.212-.428.275-.73.13-.31-.14-.482-.427-.382-.64.09-.216.424-.277.733-.132.31.14.486.43.38.642zm-.524-.388M39.293 64.52c-.203.187-.6.1-.87-.198-.278-.297-.33-.694-.124-.884.208-.188.593-.1.87.197.28.3.335.693.123.884zm-.406-.437M40.97 66.968c-.26.182-.687.012-.95-.367-.262-.377-.262-.83.005-1.013.264-.182.684-.018.95.357.262.385.262.84-.005 1.024zm0 0M43.268 69.336c-.233.257-.73.188-1.093-.163-.372-.343-.475-.83-.242-1.087.237-.257.736-.185 1.102.163.37.342.482.83.233 1.086zm0 0M46.44 70.71c-.104.334-.582.485-1.064.344-.482-.146-.796-.536-.7-.872.1-.336.582-.493 1.067-.342.48.144.795.53.696.87zm0 0M49.92 70.965c.013.35-.396.642-.902.648-.508.012-.92-.272-.926-.618 0-.354.4-.642.908-.65.506-.01.92.272.92.62zm0 0M53.16 70.414c.06.342-.29.694-.793.787-.494.092-.95-.12-1.014-.46-.06-.35.297-.7.79-.792.503-.088.953.118 1.017.466zm0 0"/></g><g fill="#100E0F"><path d="M24.855 108.302h-10.7a.5.5 0 0 0-.5.5v5.232a.5.5 0 0 0 .5.5h4.173v6.5s-.937.32-3.53.32c-3.056 0-7.327-1.116-7.327-10.508 0-9.393 4.448-10.63 8.624-10.63 3.614 0 5.17.636 6.162.943.31.094.6-.216.6-.492l1.193-5.055a.468.468 0 0 0-.192-.39c-.403-.288-2.857-1.66-9.058-1.66-7.144 0-14.472 3.038-14.472 17.65 0 14.61 8.39 16.787 15.46 16.787 5.854 0 9.405-2.502 9.405-2.502.146-.08.162-.285.162-.38v-16.316a.5.5 0 0 0-.5-.5zM79.506 94.81H73.48a.5.5 0 0 0-.498.503l.002 11.644h-9.392V95.313a.5.5 0 0 0-.497-.503H57.07a.5.5 0 0 0-.498.503v31.53c0 .277.224.503.498.503h6.025a.5.5 0 0 0 .497-.504v-13.486h9.392l-.016 13.486c0 .278.224.504.5.504h6.038a.5.5 0 0 0 .497-.504v-31.53c0-.278-.22-.502-.497-.502zM32.34 95.527c-2.144 0-3.884 1.753-3.884 3.923 0 2.167 1.74 3.925 3.884 3.925 2.146 0 3.885-1.758 3.885-3.925 0-2.17-1.74-3.923-3.885-3.923zM35.296 105.135H29.29c-.276 0-.522.284-.522.56v20.852c0 .613.382.795.876.795h5.41c.595 0 .74-.292.74-.805v-6.346-14.553a.5.5 0 0 0-.498-.502zM102.902 105.182h-5.98a.5.5 0 0 0-.496.504v15.46s-1.52 1.11-3.675 1.11-2.727-.977-2.727-3.088v-13.482a.5.5 0 0 0-.497-.504h-6.068a.502.502 0 0 0-.498.504v14.502c0 6.27 3.495 7.804 8.302 7.804 3.944 0 7.124-2.18 7.124-2.18s.15 1.15.22 1.285c.07.136.247.273.44.273l3.86-.017a.502.502 0 0 0 .5-.504l-.003-21.166a.504.504 0 0 0-.5-.502zM119.244 104.474c-3.396 0-5.706 1.515-5.706 1.515V95.312a.5.5 0 0 0-.497-.503H107a.5.5 0 0 0-.5.503v31.53a.5.5 0 0 0 .5.503h4.192c.19 0 .332-.097.437-.268.103-.17.254-1.454.254-1.454s2.47 2.34 7.148 2.34c5.49 0 8.64-2.784 8.64-12.502s-5.03-10.988-8.428-10.988zm-2.36 17.764c-2.073-.063-3.48-1.004-3.48-1.004v-9.985s1.388-.85 3.09-1.004c2.153-.193 4.228.458 4.228 5.594 0 5.417-.935 6.486-3.837 6.398zM53.195 122.12c-.263 0-.937.107-1.63.107-2.22 0-2.973-1.032-2.973-2.368v-8.866h4.52a.5.5 0 0 0 .5-.504v-4.856a.5.5 0 0 0-.5-.502h-4.52l-.007-5.97c0-.227-.116-.34-.378-.34h-6.16c-.238 0-.367.106-.367.335v6.17s-3.087.745-3.295.805a.5.5 0 0 0-.36.48v3.877a.5.5 0 0 0 .497.503h3.158v9.328c0 6.93 4.86 7.61 8.14 7.61 1.497 0 3.29-.48 3.586-.59.18-.067.283-.252.283-.453l.004-4.265a.51.51 0 0 0-.5-.502z"/></g></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%8F%8B%E9%93%BE/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友链</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://Smile-wa.github.io/en/" >English</option>
+                                
+                                    <option value="https://Smile-wa.github.io/" selected>中文</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#前言">前言</a></li>
+    <li><a href="#一准备工作">一、准备工作</a>
+      <ol>
+        <li><a href="#1-硬件要求检查">1. 硬件要求检查</a></li>
+        <li><a href="#2-必备工具">2. 必备工具</a></li>
+      </ol>
+    </li>
+    <li><a href="#二创建安装介质">二、创建安装介质</a>
+      <ol>
+        <li><a href="#下载官方镜像">下载官方镜像</a></li>
+      </ol>
+    </li>
+    <li><a href="#三开始安装">三、开始安装</a></li>
+    <li><a href="#四首次启动后的设置">四、首次启动后的设置</a>
+      <ol>
+        <li><a href="#注意事项">注意事项</a></li>
+        <li><a href="#分步设置流程">分步设置流程</a>
+          <ol>
+            <li><a href="#1-区域与键盘布局">1. 区域与键盘布局</a></li>
+            <li><a href="#2-微软账户登录">2. 微软账户登录</a></li>
+            <li><a href="#3-隐私设置关键步骤">3. 隐私设置（关键步骤）</a></li>
+            <li><a href="#4-驱动安装">4. 驱动安装</a></li>
+            <li><a href="#5-系统激活">5. 系统激活</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#常见问题">常见问题</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/">
+                <img src="/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/Windows11_hu_d6c76ee4c064f237.png"
+                        srcset="/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/Windows11_hu_d6c76ee4c064f237.png 800w, /p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/Windows11_hu_8d9b1759d7c9f731.png 1600w"
+                        width="800" 
+                        height="450" 
+                        loading="lazy"
+                        alt="Featured image of post Windows11系统安装教程" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E6%95%99%E7%A8%8B/" style="background-color: #2a9d8f; color: #fff;">
+                教程
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/">Windows11系统安装教程</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            Windows11的详细安装教程
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Sep 29, 2025</time>
+            </div>
+        
+
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="windows-11-安装指南从准备到完成的全流程">Windows 11 安装指南：从准备到完成的全流程
+</h1><p><img src="https://img.xiaowtx.dpdns.org/file/1758361044483_R-C.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Windows 11 封面图"
+	
+	
+></p>
+<h2 id="前言">前言
+</h2><p>Windows 11 带来了全新的界面设计和性能优化。本教程将详细介绍通过官方镜像安装Windows 11的完整流程，包含<strong>硬件检测</strong>、<strong>安装介质制作</strong>和<strong>系统配置</strong>关键步骤。</p>
+<hr>
+<h2 id="一准备工作">一、准备工作
+</h2><h3 id="1-硬件要求检查">1. 硬件要求检查
+</h3><ul>
+<li>处理器：1GHz 或更快，支持64位</li>
+<li>内存：≥4GB</li>
+<li>存储：≥64GB</li>
+<li>TPM 2.0 芯片（可通过<code>tpm.msc</code>验证）</li>
+<li>安全启动支持</li>
+<li>确保电脑开启UEFI模式</li>
+</ul>
+<blockquote>
+<p>💡 使用微软官方<a class="link" href="https://aka.ms/GetPCHealthCheckApp"  target="_blank" rel="noopener"
+    >PC Health Check</a>工具检测兼容性</p></blockquote>
+<h3 id="2-必备工具">2. 必备工具
+</h3><ul>
+<li>Ventoy启动U盘（可以参考<a class="link" href="https://myblog.xwgt.xyz/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/"  target="_blank" rel="noopener"
+    >使用Ventoy制作万能U盘启动盘：一U在手，装遍所有系统！</a>制作）。</li>
+<li>有效的Windows产品密钥（非必须，可后期激活）</li>
+</ul>
+<hr>
+<h2 id="二创建安装介质">二、创建安装介质
+</h2><h3 id="下载官方镜像">下载官方镜像
+</h3><ol>
+<li>
+<p><a class="link" href="https://go.microsoft.com/fwlink/?linkid=2156295"  target="_blank" rel="noopener"
+    >下载微软官方下载工具</a></p>
+</li>
+<li>
+<p>双击打开下载的微软官方下载软件点击“接受”<img src="https://img.xiaowtx.dpdns.org/file/1758361899990_win11%e6%9d%a1%e6%ac%be.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="win11条款.png"
+	
+	
+></p>
+</li>
+<li>
+<p>选择默认设置，点击“下一步”<img src="https://img.xiaowtx.dpdns.org/file/1758362040591_%e7%89%88%e6%9c%ac%e9%80%89%e6%8b%a9.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="版本选择.png"
+	
+	
+></p>
+</li>
+<li>
+<p>选择“IOS文件”，然后点击“下一步”<img src="https://img.xiaowtx.dpdns.org/file/1758362124635_IOS.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="IOS.png"
+	
+	
+></p>
+</li>
+<li>
+<p>选择合适的保存位置，然后点击“保存”<img src="https://img.xiaowtx.dpdns.org/file/1758362284201_%e4%b8%8b%e8%bd%bd%e4%bd%8d%e7%bd%ae.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="下载位置.png"
+	
+	
+></p>
+</li>
+<li>
+<p>等待下载完成<img src="https://img.xiaowtx.dpdns.org/file/1758362365609_%e5%bc%80%e5%a7%8b%e4%b8%8b%e8%bd%bd.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="开始下载.png"
+	
+	
+></p>
+</li>
+<li>
+<p>将下载完成的文件复制到准备好的启动U盘。</p>
+</li>
+</ol>
+<hr>
+<h2 id="三开始安装">三、开始安装
+</h2><ol>
+<li>
+<p>将复制好镜像文件的U盘插入电脑；<img src="https://img.xiaowtx.dpdns.org/file/1758420549050_%e9%95%9c%e5%83%8f%e6%8b%b7%e8%b4%9d.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="镜像拷贝.png"
+	
+	
+></p>
+</li>
+<li>
+<p>重启电脑，按快捷启动键（华硕为F8，联想为F12，其他品牌我也没用过请自行百度）进入启动项选择界面；<img src="https://img.xiaowtx.dpdns.org/file/1758444842236_01.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="01.jpg"
+	
+	
+></p>
+</li>
+<li>
+<p>选择UEFI开头U盘选项，按回车键确认；<img src="https://img.xiaowtx.dpdns.org/file/1758444842236_01.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="01.jpg"
+	
+	
+></p>
+</li>
+<li>
+<p>选择“Windows11.IOS&quot;选项，按回车键确认；<img src="https://img.xiaowtx.dpdns.org/file/1758444915412_02.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="02.jpg"
+	
+	
+></p>
+</li>
+<li>
+<p>选择“Boot in normal mode”选项，按回车键确认；<img src="https://img.xiaowtx.dpdns.org/file/1758444976322_03.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="03.jpg"
+	
+	
+></p>
+</li>
+<li>
+<p>按需求选择要安装的语言、时间和货币格式，然后点击“下一步”；<img src="https://img.xiaowtx.dpdns.org/file/1758445080812_04.avif"
+	
+	
+	
+	loading="lazy"
+	
+		alt="04.avif"
+	
+	
+></p>
+</li>
+<li>
+<p>按需选择键盘和输入法，然后点击下一步；<img src="https://img.xiaowtx.dpdns.org/file/1758445228337_05.avif"
+	
+	
+	
+	loading="lazy"
+	
+		alt="05.avif"
+	
+	
+></p>
+</li>
+<li>
+<p>点击“安装Windows11”选项，勾选“我同意删除所有内容，包括文件、应用和设置”，然后点击“下一步”；<img src="https://img.xiaowtx.dpdns.org/file/1758445293576_06.avif"
+	
+	
+	
+	loading="lazy"
+	
+		alt="06.avif"
+	
+	
+></p>
+</li>
+<li>
+<p>选择想要安装的系统版本，然后点击“下一步”；<img src="https://img.xiaowtx.dpdns.org/file/1758445462597_08.avif"
+	
+	
+	
+	loading="lazy"
+	
+		alt="08.avif"
+	
+	
+></p>
+</li>
+<li>
+<p>点击“接受”<img src="https://img.xiaowtx.dpdns.org/file/1758445523892_09.avif"
+	
+	
+	
+	loading="lazy"
+	
+		alt="09.avif"
+	
+	
+></p>
+</li>
+<li>
+<p>选择需要安装的硬盘分区（⚠️<strong>如果电脑存在多个硬盘，注意区分，避免造成数据丢失！</strong>），然后点击“下一步”；<img src="https://img.xiaowtx.dpdns.org/file/1758445575612_10.avif"
+	
+	
+	
+	loading="lazy"
+	
+		alt="10.avif"
+	
+	
+></p>
+</li>
+<li>
+<p>准备就绪后，点击“安装”<img src="https://img.xiaowtx.dpdns.org/file/1758445900441_11.avif"
+	
+	
+	
+	loading="lazy"
+	
+		alt="11.avif"
+	
+	
+></p>
+</li>
+<li>
+<p>等待安装完成，系统将自动重启；<img src="https://img.xiaowtx.dpdns.org/file/1758445969876_12.avif"
+	
+	
+	
+	loading="lazy"
+	
+		alt="12.avif"
+	
+	
+></p>
+</li>
+</ol>
+<h2 id="四首次启动后的设置">四、首次启动后的设置
+</h2><h3 id="注意事项">注意事项
+</h3><p>⚠️ <strong>网络连接</strong></p>
+<ul>
+<li>如果不使用微软账户，建议跳过网络连接</li>
+<li>按 <code>Shift+F10</code> 输入 <code>OOBE\BYPASSNRO</code> 可彻底跳过联网（企业版无效）</li>
+</ul>
+<hr>
+<h3 id="分步设置流程">分步设置流程
+</h3><h4 id="1-区域与键盘布局">1. 区域与键盘布局
+</h4><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">示例选择：  
+</span></span><span class="line"><span class="cl">- 国家/地区：中国 （建议选择欧盟地区国家，因为欧盟《数字市场法案》，微软解除了大部分系统服务的强制性绑定 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">- 输入法：微软拼音（保留美式键盘布局）
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="2-微软账户登录">2. 微软账户登录
+</h4><p>✅ 推荐方案：</p>
+<ul>
+<li>选择「脱机账户」→ 左下角点击「有限的体验」</li>
+<li>本地用户名避免使用中文（部分老旧软件兼容性问题）</li>
+</ul>
+<p>❌ 高危操作：</p>
+<ul>
+<li>使用企业邮箱登录可能导致BitLocker自动加密</li>
+</ul>
+<h4 id="3-隐私设置关键步骤">3. 隐私设置（关键步骤）
+</h4><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left"><strong>选项</strong></th>
+          <th style="text-align: left"><strong>建议设置</strong></th>
+          <th style="text-align: left"><strong>说明</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">诊断数据</td>
+          <td style="text-align: left">关闭</td>
+          <td style="text-align: left">减少数据上传</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">活动历史记录</td>
+          <td style="text-align: left">关闭</td>
+          <td style="text-align: left">保护隐私</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">广告ID</td>
+          <td style="text-align: left">关闭</td>
+          <td style="text-align: left">降低个性化广告</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">位置服务</td>
+          <td style="text-align: left">按需开启</td>
+          <td style="text-align: left">笔记本用户建议关闭</td>
+      </tr>
+  </tbody>
+</table></div>
+<h4 id="4-驱动安装">4. 驱动安装
+</h4><ul>
+<li>官方驱动下载优先级：主板官网 &gt; 微软更新 &gt; 硬件厂商官网</li>
+<li>最好不要使用“驱动精灵”、“360驱动”等第三方工具</li>
+</ul>
+<h4 id="5-系统激活">5. 系统激活
+</h4><ul>
+<li>以前安装过会联网自动激活</li>
+<li>首次安装推荐某宝几块钱买个激活码</li>
+<li>也可以网上搜激活工具</li>
+</ul>
+<h2 id="常见问题">常见问题
+</h2><ul>
+<li>
+<p>❌ 问题1：安装时提示「无法创建新分区」</p>
+</li>
+<li>
+<p>✅ 解决：删除所有分区后重新新建，或使用DiskPart工具清理磁盘</p>
+</li>
+<li>
+<p>❌ 问题2：启动盘无法识别</p>
+</li>
+<li>
+<p>✅ 解决：检查BIOS是否启用UEFI模式，或重新制作启动盘</p>
+</li>
+</ul>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/windows11/">Windows11</a>
+        
+            <a href="/tags/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/">系统安装</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/ventoy.cff845a8daa02e012817d1c2d7cae233_hu_a1072eb6f3357e66.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 使用Ventoy制作启动U盘"
+                        
+                        data-hash="md5-z/hFqNqgLgEoF9HC18riMw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">使用Ventoy制作启动U盘</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+<link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet'/>
+<div id="waline" class="waline-container"></div>
+<style>
+    .waline-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+        --waline-font-size: var(--article-font-size);
+    }
+    .waline-container .wl-count {
+        color: var(--card-text-color-main);
+    }
+</style><script>
+    
+    Waline.init({"dark":"html[data-scheme=\"dark\"]","el":"#waline","emoji":["https://unpkg.com/@waline/emojis@1.0.1/weibo","https://unpkg.com/@waline/emojis@1.0.1/bilibili"],"lang":"zh-CN","locale":{"admin":"Smile_Wang","placeholder":"欢迎留言交流，支持Markdown语法 😊"},"pageview":true,"requiredMeta":["nick","email"],"serverURL":"https://waline.xwgt.xyz"});
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 「Smile_Wang」
+        
+    </section>
+    <section class="powerby">
+        <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">鲁ICP备2025185588号</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

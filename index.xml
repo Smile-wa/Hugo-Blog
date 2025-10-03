@@ -1,0 +1,1017 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>「Smile_Wang」</title>
+        <link>https://Smile-wa.github.io/</link>
+        <description>Recent content on 「Smile_Wang」</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>「像素胃溃疡」</copyright>
+        <lastBuildDate>Fri, 03 Oct 2025 11:22:28 +0800</lastBuildDate><atom:link href="https://Smile-wa.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>在飞牛NAS上部署Omni-Tools：打造您的全能工具箱</title>
+        <link>https://Smile-wa.github.io/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/</link>
+        <pubDate>Fri, 03 Oct 2025 11:22:28 +0800</pubDate>
+        
+        <guid>https://Smile-wa.github.io/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/</guid>
+        <description>&lt;img src="https://Smile-wa.github.io/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/omni.png" alt="Featured image of post 在飞牛NAS上部署Omni-Tools：打造您的全能工具箱" /&gt;&lt;h1 id=&#34;在飞牛nas上部署omni-tools打造您的全能工具箱&#34;&gt;在飞牛NAS上部署Omni-Tools：打造您的全能工具箱
+&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Omni-Tools&lt;/strong&gt; - 一个开箱即用的多功能工具集，提供文件转换、数据处理等各类实用功能&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;飞牛NAS&lt;/strong&gt; - 国产轻量级NAS系统，提供Docker容器支持&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;完美结合&lt;/strong&gt; - 将强大工具装进私人NAS，打造专属效率神器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-前言为什么选择飞牛nas部署omni-tools&#34;&gt;🧭 前言：为什么选择飞牛NAS部署Omni-Tools？
+&lt;/h2&gt;&lt;p&gt;在网络服务受限或需要保护隐私的场景下，将Omni-Tools这样的全能工具箱部署在自己的飞牛NAS设备上有诸多优势：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;完全自主掌控 - 数据无需上传第三方服务器&lt;/li&gt;
+&lt;li&gt;永久免费 - 无需订阅服务，一次性部署终身使用&lt;/li&gt;
+&lt;li&gt;24小时待命 - NAS持续运行，工具随时可用&lt;/li&gt;
+&lt;li&gt;性能优化 - 可针对NAS硬件定制化配置
+接下来，我将详细介绍部署全过程，只需15分钟，就能拥有属于你的私有全能工具箱！&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;-准备工作&#34;&gt;🧰 准备工作
+&lt;/h2&gt;&lt;p&gt;确保您的飞牛NAS已满足以下条件：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;飞牛NAS已安装Docker&lt;/li&gt;
+&lt;li&gt;存储空间：至少1GB空闲空间&lt;/li&gt;
+&lt;li&gt;内存：建议分配512MB以上给容器&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;-部署全流程&#34;&gt;🚀 部署全流程
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;在飞牛主页面找到 Docker 打开后，切换菜单 Compose -&amp;gt; 新增项目&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759462420215_omni1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;omni1.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;在创建项目页面根据实际情况定义 项目名称、选择 路径，选中 创建 docker-compose.yml 后，把下面 yml 文件粘贴到文本框中。检查无误后点击 确定 按钮进行部署 &lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759462591745_omni2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;omni2.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;services&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;omni-tools&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;iib0011/omni-tools:latest&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;container_name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;omni-tools&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;restart&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;unless-stopped&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;ports&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;s2&#34;&gt;&amp;#34;9080:80&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;等待部署完成，在容器管理中查看运行状态&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759462745402_omni3.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;omni3.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;-访问您的私人工具箱&#34;&gt;🌐 访问您的私人工具箱
+&lt;/h2&gt;&lt;p&gt;现在可以通过以下方式访问：
+http://你的NAS-IP:9080&lt;br&gt;
+Omni-Tools界面预览&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759462891231_omni.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;omni.png&#34;
+	
+	
+&gt;
+该项目集成了多个实用工具，覆盖图像、PDF、文本、视频、音频等常见类型，同时也为开发者提供了 JSON、CSV、XML 等专业格式的处理支持。更贴心的是，开发者已将这些工具按功能分类整理，用户只需根据需求点击对应分类，即可快速找到所需工具，省时又高效。&lt;/p&gt;
+&lt;h2 id=&#34;-实用技巧&#34;&gt;💡 实用技巧
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;手机访问优化 - 添加到主屏幕，实现类APP体验&lt;/li&gt;
+&lt;li&gt;夜间模式 - Omni-Tools支持暗黑模式，保护眼睛&lt;/li&gt;
+&lt;li&gt;API集成 - 使用内置API连接其他自动化工具&lt;/li&gt;
+&lt;li&gt;定时任务 - 设置cron定时清理缓存文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-结语&#34;&gt;🎯 结语
+&lt;/h2&gt;&lt;p&gt;通过在飞牛NAS上部署Omni-Tools，您获得了一个安全、高效、永不离线的全能工具箱。无论是文档转换、数据处理还是其他实用操作，都可以在私有的环境中完成，不必担心数据泄露或服务中断。&lt;/p&gt;
+&lt;p&gt;部署过程中如果遇到任何问题，欢迎在评论区留言交流！也欢迎分享您的自定义配置或使用场景。&lt;/p&gt;
+&lt;h2 id=&#34;相关资源&#34;&gt;相关资源：
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/iib0011/omni-tools&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Omni-Tools GitHub主页&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://club.fnnas.com/forum.php&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;飞牛NAS官方论坛&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>飞牛NAS使用Lucky实现动态域名解析</title>
+        <link>https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8lucky%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</link>
+        <pubDate>Wed, 01 Oct 2025 11:27:58 +0800</pubDate>
+        
+        <guid>https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8lucky%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</guid>
+        <description>&lt;img src="https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8lucky%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/Fnos.png" alt="Featured image of post 飞牛NAS使用Lucky实现动态域名解析" /&gt;&lt;h1 id=&#34;使用lucky实现飞牛nas动态域名解析教程&#34;&gt;使用Lucky实现飞牛NAS动态域名解析教程
+&lt;/h1&gt;&lt;h2 id=&#34;一前言&#34;&gt;一、前言
+&lt;/h2&gt;&lt;p&gt;飞牛NAS（FeiNiu NAS）作为国产新兴的NAS系统，许多用户希望通过域名远程访问设备。但家庭宽带通常没有固定公网IP，这时可以通过&lt;strong&gt;Lucky&lt;/strong&gt;（原&lt;code&gt;ddns-go&lt;/code&gt;）工具实现动态域名解析。&lt;/p&gt;
+&lt;h2 id=&#34;-二准备工作&#34;&gt;📦 二、准备工作
+&lt;/h2&gt;&lt;h3 id=&#34;所需条件&#34;&gt;所需条件
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;已安装飞牛NAS系统的设备&lt;/li&gt;
+&lt;li&gt;拥有域名（支持阿里云/腾讯云/DNSPod等）&lt;/li&gt;
+&lt;li&gt;确保你的网络有公网IP(公网IPV4或公网IPV6)&lt;/li&gt;
+&lt;li&gt;路由器可开启端口转发（公网IPV4需使用）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;工具获取&#34;&gt;工具获取
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Lucky项目地址：&lt;a class=&#34;link&#34; href=&#34;https://github.com/gdy666/lucky&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/gdy666/lucky&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;飞牛NAS的Docker功能已启用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-三安装lucky容器&#34;&gt;🐳 三、安装Lucky容器
+&lt;/h2&gt;&lt;h3 id=&#34;步骤1创建项目目录&#34;&gt;步骤1：创建项目目录
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;点击&amp;quot;文件管理&amp;quot;&lt;/li&gt;
+&lt;li&gt;点击“新建文件夹”&lt;/li&gt;
+&lt;li&gt;“文件夹名称”输入Docker&lt;/li&gt;
+&lt;li&gt;选择“文件夹位置”，据个人情况自行选择（我选择的存储空间2）&lt;/li&gt;
+&lt;li&gt;再次在Docker文件夹内新建一个Lucky文件夹&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;步骤2创建docker-composeyml文件并部署&#34;&gt;步骤2：创建docker-compose.yml文件，并部署
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;在Docker中点击“Compose”&lt;/li&gt;
+&lt;li&gt;点击“新增项目”&lt;/li&gt;
+&lt;li&gt;“项目名称”输入Lucky&lt;/li&gt;
+&lt;li&gt;“路径”选择前面创建的Lucky文件夹&lt;/li&gt;
+&lt;li&gt;“来源”选择“创建docker-compose.yml”&lt;/li&gt;
+&lt;li&gt;然后粘贴下面的代码&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;services&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;lucky&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;gdy666/lucky&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;container_name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;lucky&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;volumes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;          &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;/vol2/1000/Docker/lucky:/goodluck &lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#/vol2/1000/Docker/lucky改为自己的文件夹路径&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;ports&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;          &lt;/span&gt;- &lt;span class=&#34;m&#34;&gt;16601&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;16601&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;network_mode&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;host&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;restart&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;always&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;勾选“创建项目后立即启动”然后点击“确定”&lt;/li&gt;
+&lt;li&gt;等待部署完成。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;-四配置动态域名解析&#34;&gt;⚙️ 四、配置动态域名解析
+&lt;/h2&gt;&lt;h3 id=&#34;1-访问lucky控制台&#34;&gt;1. 访问Lucky控制台
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;浏览器打开：
+http://你的NAS局域网IP:16601&lt;/li&gt;
+&lt;li&gt;初始设置：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;创建管理员账号（默认账户密码：666/666）&lt;/li&gt;
+&lt;li&gt;设置强密码&lt;/li&gt;
+&lt;li&gt;设置安全入口&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-添加dns解析&#34;&gt;2. 添加DNS解析
+&lt;/h3&gt;&lt;h4 id=&#34;1api密钥获取&#34;&gt;1.API密钥获取
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;登录&lt;a class=&#34;link&#34; href=&#34;https://console.cloud.tencent.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;腾讯云控制台&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;进入 &lt;strong&gt;访问管理 &amp;gt; API密钥管理&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;点击 &lt;strong&gt;新建密钥&lt;/strong&gt; 创建SecretId和SecretKey&lt;/li&gt;
+&lt;li&gt;记录这两组密钥（后续配置需要）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;2配置lucky的ddns服务以腾讯云为例&#34;&gt;2.配置Lucky的DDNS服务（以腾讯云为例）
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;访问Lucky管理界面：&lt;code&gt;http://飞牛内网IP:16601&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;左侧菜单 → &lt;strong&gt;动态域名(DDNS) → 服务列表 → 添加&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;任务名称填写腾讯云 → 依次SecretId和SecretKey&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759396894153_ddns1_1_.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ddns1(1).png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;点击添加记录（下图红色框）。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759397062605_ddns2_1_.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ddns2(1).png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;按照下图方式填写同步记录，最后点击“添加任务”。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759454706808_ddns3_1_.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ddns3(1).png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;检查IPV6地址与你的NAS的IPV6地址是否一致。&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759455011702_DDNS4_1_.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;DDNS4(1).png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;登录&lt;a class=&#34;link&#34; href=&#34;https://console.cloud.tencent.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;腾讯云控制台&lt;/a&gt;检查解析记录的IPV6地址是否正确。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;-五故障排除&#34;&gt;🚨 五、故障排除
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;问题现象&lt;/th&gt;
+          &lt;th&gt;解决方案&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;无法获取公网IP&lt;/td&gt;
+          &lt;td&gt;检查容器网络模式是否为 host&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;API密钥报错&lt;/td&gt;
+          &lt;td&gt;确认AccessKey权限包含 DNS修改权限&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;解析不生效&lt;/td&gt;
+          &lt;td&gt;检查子域名填写格式（只需前缀 nas）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;HTTPS证书错误&lt;/td&gt;
+          &lt;td&gt;启用Lucky的 SSL证书管理 模块&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;外网无法访问&lt;/td&gt;
+          &lt;td&gt;确认路由器已转发端口或者防火墙是否关闭&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        </item>
+        <item>
+        <title>Windows11系统安装教程</title>
+        <link>https://Smile-wa.github.io/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</link>
+        <pubDate>Mon, 29 Sep 2025 16:28:18 +0800</pubDate>
+        
+        <guid>https://Smile-wa.github.io/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</guid>
+        <description>&lt;img src="https://Smile-wa.github.io/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/Windows11.png" alt="Featured image of post Windows11系统安装教程" /&gt;&lt;h1 id=&#34;windows-11-安装指南从准备到完成的全流程&#34;&gt;Windows 11 安装指南：从准备到完成的全流程
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758361044483_R-C.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Windows 11 封面图&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言
+&lt;/h2&gt;&lt;p&gt;Windows 11 带来了全新的界面设计和性能优化。本教程将详细介绍通过官方镜像安装Windows 11的完整流程，包含&lt;strong&gt;硬件检测&lt;/strong&gt;、&lt;strong&gt;安装介质制作&lt;/strong&gt;和&lt;strong&gt;系统配置&lt;/strong&gt;关键步骤。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;一准备工作&#34;&gt;一、准备工作
+&lt;/h2&gt;&lt;h3 id=&#34;1-硬件要求检查&#34;&gt;1. 硬件要求检查
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;处理器：1GHz 或更快，支持64位&lt;/li&gt;
+&lt;li&gt;内存：≥4GB&lt;/li&gt;
+&lt;li&gt;存储：≥64GB&lt;/li&gt;
+&lt;li&gt;TPM 2.0 芯片（可通过&lt;code&gt;tpm.msc&lt;/code&gt;验证）&lt;/li&gt;
+&lt;li&gt;安全启动支持&lt;/li&gt;
+&lt;li&gt;确保电脑开启UEFI模式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 使用微软官方&lt;a class=&#34;link&#34; href=&#34;https://aka.ms/GetPCHealthCheckApp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PC Health Check&lt;/a&gt;工具检测兼容性&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;2-必备工具&#34;&gt;2. 必备工具
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Ventoy启动U盘（可以参考&lt;a class=&#34;link&#34; href=&#34;https://myblog.xwgt.xyz/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;使用Ventoy制作万能U盘启动盘：一U在手，装遍所有系统！&lt;/a&gt;制作）。&lt;/li&gt;
+&lt;li&gt;有效的Windows产品密钥（非必须，可后期激活）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;二创建安装介质&#34;&gt;二、创建安装介质
+&lt;/h2&gt;&lt;h3 id=&#34;下载官方镜像&#34;&gt;下载官方镜像
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://go.microsoft.com/fwlink/?linkid=2156295&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;下载微软官方下载工具&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;双击打开下载的微软官方下载软件点击“接受”&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758361899990_win11%e6%9d%a1%e6%ac%be.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;win11条款.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择默认设置，点击“下一步”&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758362040591_%e7%89%88%e6%9c%ac%e9%80%89%e6%8b%a9.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;版本选择.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择“IOS文件”，然后点击“下一步”&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758362124635_IOS.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;IOS.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择合适的保存位置，然后点击“保存”&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758362284201_%e4%b8%8b%e8%bd%bd%e4%bd%8d%e7%bd%ae.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;下载位置.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;等待下载完成&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758362365609_%e5%bc%80%e5%a7%8b%e4%b8%8b%e8%bd%bd.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;开始下载.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;将下载完成的文件复制到准备好的启动U盘。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;三开始安装&#34;&gt;三、开始安装
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;将复制好镜像文件的U盘插入电脑；&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758420549050_%e9%95%9c%e5%83%8f%e6%8b%b7%e8%b4%9d.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;镜像拷贝.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;重启电脑，按快捷启动键（华硕为F8，联想为F12，其他品牌我也没用过请自行百度）进入启动项选择界面；&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758444842236_01.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;01.jpg&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择UEFI开头U盘选项，按回车键确认；&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758444842236_01.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;01.jpg&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择“Windows11.IOS&amp;quot;选项，按回车键确认；&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758444915412_02.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;02.jpg&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择“Boot in normal mode”选项，按回车键确认；&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758444976322_03.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;03.jpg&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;按需求选择要安装的语言、时间和货币格式，然后点击“下一步”；&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758445080812_04.avif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;04.avif&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;按需选择键盘和输入法，然后点击下一步；&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758445228337_05.avif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;05.avif&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;点击“安装Windows11”选项，勾选“我同意删除所有内容，包括文件、应用和设置”，然后点击“下一步”；&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758445293576_06.avif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;06.avif&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择想要安装的系统版本，然后点击“下一步”；&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758445462597_08.avif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;08.avif&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;点击“接受”&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758445523892_09.avif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;09.avif&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择需要安装的硬盘分区（⚠️&lt;strong&gt;如果电脑存在多个硬盘，注意区分，避免造成数据丢失！&lt;/strong&gt;），然后点击“下一步”；&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758445575612_10.avif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;10.avif&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;准备就绪后，点击“安装”&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758445900441_11.avif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;11.avif&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;等待安装完成，系统将自动重启；&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758445969876_12.avif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;12.avif&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;四首次启动后的设置&#34;&gt;四、首次启动后的设置
+&lt;/h2&gt;&lt;h3 id=&#34;注意事项&#34;&gt;注意事项
+&lt;/h3&gt;&lt;p&gt;⚠️ &lt;strong&gt;网络连接&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果不使用微软账户，建议跳过网络连接&lt;/li&gt;
+&lt;li&gt;按 &lt;code&gt;Shift+F10&lt;/code&gt; 输入 &lt;code&gt;OOBE\BYPASSNRO&lt;/code&gt; 可彻底跳过联网（企业版无效）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;分步设置流程&#34;&gt;分步设置流程
+&lt;/h3&gt;&lt;h4 id=&#34;1-区域与键盘布局&#34;&gt;1. 区域与键盘布局
+&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;示例选择：  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- 国家/地区：中国 （建议选择欧盟地区国家，因为欧盟《数字市场法案》，微软解除了大部分系统服务的强制性绑定 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- 输入法：微软拼音（保留美式键盘布局）
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id=&#34;2-微软账户登录&#34;&gt;2. 微软账户登录
+&lt;/h4&gt;&lt;p&gt;✅ 推荐方案：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;选择「脱机账户」→ 左下角点击「有限的体验」&lt;/li&gt;
+&lt;li&gt;本地用户名避免使用中文（部分老旧软件兼容性问题）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;❌ 高危操作：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用企业邮箱登录可能导致BitLocker自动加密&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;3-隐私设置关键步骤&#34;&gt;3. 隐私设置（关键步骤）
+&lt;/h4&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;选项&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;建议设置&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;说明&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;诊断数据&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;关闭&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;减少数据上传&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;活动历史记录&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;关闭&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;保护隐私&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;广告ID&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;关闭&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;降低个性化广告&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;位置服务&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;按需开启&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;笔记本用户建议关闭&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;4-驱动安装&#34;&gt;4. 驱动安装
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;官方驱动下载优先级：主板官网 &amp;gt; 微软更新 &amp;gt; 硬件厂商官网&lt;/li&gt;
+&lt;li&gt;最好不要使用“驱动精灵”、“360驱动”等第三方工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;5-系统激活&#34;&gt;5. 系统激活
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;以前安装过会联网自动激活&lt;/li&gt;
+&lt;li&gt;首次安装推荐某宝几块钱买个激活码&lt;/li&gt;
+&lt;li&gt;也可以网上搜激活工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;常见问题&#34;&gt;常见问题
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;❌ 问题1：安装时提示「无法创建新分区」&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;✅ 解决：删除所有分区后重新新建，或使用DiskPart工具清理磁盘&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;❌ 问题2：启动盘无法识别&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;✅ 解决：检查BIOS是否启用UEFI模式，或重新制作启动盘&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>使用Ventoy制作启动U盘</title>
+        <link>https://Smile-wa.github.io/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/</link>
+        <pubDate>Sat, 27 Sep 2025 14:57:04 +0800</pubDate>
+        
+        <guid>https://Smile-wa.github.io/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/</guid>
+        <description>&lt;img src="https://Smile-wa.github.io/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/ventoy.png" alt="Featured image of post 使用Ventoy制作启动U盘" /&gt;&lt;h1 id=&#34;-使用ventoy制作万能u盘启动盘一u在手装遍所有系统&#34;&gt;🔥 使用Ventoy制作万能U盘启动盘：一U在手，装遍所有系统！
+&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;无需反复格式化，一次制作永久使用！轻松管理多个系统镜像的终极解决方案&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.ventoy.net/static/img/screen/screen_uefi.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Ventoy多系统启动盘示意图&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;-为什么选择ventoy&#34;&gt;🧠 为什么选择Ventoy？
+&lt;/h2&gt;&lt;p&gt;传统启动盘制作工具痛点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;❌ 每个镜像都需要单独制作U盘&lt;/li&gt;
+&lt;li&gt;🗑️ 每次制作都要格式化，U盘变&amp;quot;一次性&amp;quot;&lt;/li&gt;
+&lt;li&gt;📁 无法同时存储多个系统镜像&lt;/li&gt;
+&lt;li&gt;🔄 升级镜像需要重新制作整个U盘&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ventoy的革命性解决方案：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ &lt;strong&gt;多系统共存&lt;/strong&gt;：一个U盘同时存放Windows、Linux、PE等ISO文件&lt;/li&gt;
+&lt;li&gt;🚀 &lt;strong&gt;即拷即用&lt;/strong&gt;：添加新系统只需拷贝ISO文件到U盘&lt;/li&gt;
+&lt;li&gt;💾 &lt;strong&gt;数据分离&lt;/strong&gt;：启动分区与存储分区独立，文件更安全&lt;/li&gt;
+&lt;li&gt;🆓 &lt;strong&gt;开源免费&lt;/strong&gt;：持续更新，支持超过1000种ISO镜像&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-准备工作&#34;&gt;📋 准备工作
+&lt;/h2&gt;&lt;h3 id=&#34;硬件要求&#34;&gt;硬件要求
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;USB 2.0/3.0 U盘（&lt;strong&gt;容量建议≥32GB&lt;/strong&gt;）&lt;/li&gt;
+&lt;li&gt;目标电脑支持UEFI/BIOS启动&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;软件下载&#34;&gt;软件下载
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.ventoy.net/cn/download.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Ventoy最新版&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;所需系统镜像：
+&lt;ul&gt;
+&lt;li&gt;Windows: Win10/Win11原版ISO&lt;/li&gt;
+&lt;li&gt;Linux: Ubuntu/CentOS/Debian等&lt;/li&gt;
+&lt;li&gt;工具类: Hiren&amp;rsquo;s PE/微PE/Clonezilla&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;⚠️ 重要提示：操作前备份U盘数据！安装过程会格式化U盘！&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;-制作教程windows版&#34;&gt;🛠️ 制作教程（Windows版）
+&lt;/h2&gt;&lt;h3 id=&#34;步骤1安装ventoy&#34;&gt;步骤1：安装Ventoy
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;mf&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;解压&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;ventoy-x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;py&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;xx-windows&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;py&#34;&gt;zip&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;mf&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;以管理员身份运行&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Ventoy2Disk&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;py&#34;&gt;exe&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;mf&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;在设备列表中选择你的U盘&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;（&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;确认容量避免选错&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;！）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;mf&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;选择分区类型&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;（&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;新电脑选GPT&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;，&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;旧电脑选MBR&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;mf&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;点击&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;安装&amp;#34;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;按钮&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1757920808997_ventoy.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Ventoy多系统启动盘示意图&#34;
+	
+	
+&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;步骤2添加iso镜像&#34;&gt;步骤2：添加ISO镜像
+&lt;/h3&gt;&lt;p&gt;安装完成后，U盘会显示两个分区：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;EFI分区&lt;/strong&gt;：Ventoy核心文件（不要修改）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;数据分区&lt;/strong&gt;：存放ISO文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;直接将下载的ISO文件复制到数据分区根目录或任意文件夹：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;U:/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 📁 ventoy/           # 配置文件目录
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 🏢 Windows11.iso
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 🐧 Ubuntu-22.04.iso
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 🛠️ WePE_64_V2.2.iso
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;└── 💾 Clonezilla-live.iso
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;步骤3启动系统&#34;&gt;步骤3：启动系统
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;U盘插入目标电脑&lt;/li&gt;
+&lt;li&gt;开机狂按启动菜单键（F12/ESC/Del等）&lt;/li&gt;
+&lt;li&gt;选择&lt;code&gt;UEFI: [你的U盘名称]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;在Ventoy菜单中选择要启动的ISO文件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-高级配置技巧&#34;&gt;⚙️ 高级配置技巧
+&lt;/h3&gt;&lt;h4 id=&#34;主题定制&#34;&gt;主题定制
+&lt;/h4&gt;&lt;p&gt;创建&lt;code&gt;ventoy/ventoy.json&lt;/code&gt;文件：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;theme&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;&amp;#34;file&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;/ventoy/theme/dark.theme&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;&amp;#34;gfxmode&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;1920x1080&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;&amp;#34;display_mode&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;GUI&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;-持久化存储linux系统&#34;&gt;🎒 持久化存储（Linux系统）
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;persistence&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nt&#34;&gt;&amp;#34;image&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;/linux/ubuntu-22.04.iso&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nt&#34;&gt;&amp;#34;backend&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;/persist/ubuntu.dat&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nt&#34;&gt;&amp;#34;size&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;2048MB&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;-常用快捷键&#34;&gt;⌨️ 常用快捷键
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;按键&lt;/th&gt;
+          &lt;th&gt;功能&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;F1&lt;/td&gt;
+          &lt;td&gt;帮助&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;F3&lt;/td&gt;
+          &lt;td&gt;文件浏览器&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;F5&lt;/td&gt;
+          &lt;td&gt;刷新ISO列表&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;F6&lt;/td&gt;
+          &lt;td&gt;镜像校验&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;F7&lt;/td&gt;
+          &lt;td&gt;显示/隐藏文件类型说明&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;-实战应用场景&#34;&gt;💡 实战应用场景
+&lt;/h3&gt;&lt;h4 id=&#34;场景1系统维护工具箱&#34;&gt;场景1：系统维护工具箱
+&lt;/h4&gt;&lt;p&gt;U盘包含：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;微PE - Windows维护&lt;/li&gt;
+&lt;li&gt;GParted - 分区工具&lt;/li&gt;
+&lt;li&gt;MemTest86 - 内存检测&lt;/li&gt;
+&lt;li&gt;HDAT2 - 硬盘修复&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;场景2多系统安装盘&#34;&gt;场景2：多系统安装盘
+&lt;/h4&gt;&lt;p&gt;同时存放：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 10/11&lt;/li&gt;
+&lt;li&gt;Ubuntu Desktop/Server&lt;/li&gt;
+&lt;li&gt;CentOS Stream&lt;/li&gt;
+&lt;li&gt;Arch Linux&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;场景3应急救援系统&#34;&gt;场景3：应急救援系统
+&lt;/h4&gt;&lt;p&gt;包含：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Clonezilla - 系统备份还原&lt;/li&gt;
+&lt;li&gt;Kaspersky RescueDisk - 病毒查杀&lt;/li&gt;
+&lt;li&gt;SystemRescue - 灾难恢复&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-常见问题解决&#34;&gt;❓ 常见问题解决
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;启动时提示&amp;quot;Secure Boot Violation&amp;quot;&lt;/strong&gt;&lt;br&gt;
+✅ 解决方法：BIOS中关闭Secure Boot&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;某些ISO无法启动&lt;/strong&gt;&lt;br&gt;
+✅ 尝试：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用原版镜像（非修改版）&lt;/li&gt;
+&lt;li&gt;更新Ventoy到最新版&lt;/li&gt;
+&lt;li&gt;启用&lt;code&gt;Legacy BIOS&lt;/code&gt;模式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;U盘写入速度变慢&lt;/strong&gt;&lt;br&gt;
+✅ 操作建议：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用USB3.0及以上接口&lt;/li&gt;
+&lt;li&gt;定期执行&amp;quot;无损升级&amp;quot;&lt;/li&gt;
+&lt;li&gt;检查U盘是否使用扩容盘&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;如何更新Ventoy?&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;运行Ventoy2Disk → 选择设备 → 点击&lt;span class=&#34;s2&#34;&gt;&amp;#34;升级&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;不会影响已有ISO文件！&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;-使用心得&#34;&gt;🌟 使用心得
+&lt;/h3&gt;&lt;p&gt;从2020年开始使用Ventoy，我的收获：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗂️ 告别抽屉里的一堆启动盘（节省5个U盘！）&lt;/li&gt;
+&lt;li&gt;⏱️ 新系统部署时间缩短70%&lt;/li&gt;
+&lt;li&gt;🧩 轻松管理公司不同项目所需的环境&lt;/li&gt;
+&lt;li&gt;🆓 再也不需要找各种启动盘制作工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;实测数据：&lt;br&gt;
+传统方式制作10个系统镜像 → 需要10个U盘，耗时约2小时&lt;br&gt;
+Ventoy方式 → 只需1个U盘，20分钟完成部署&lt;/p&gt;
+&lt;h2 id=&#34;-资源推荐&#34;&gt;📥 资源推荐
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.ventoy.net&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Ventoy官方文档&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;[https://example.com]%28https://www.microsoft.com/zh-cn/software-download/windows11%29&#34; &gt;ISO镜像下载站&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://example.com/plugins&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Ventoy插件合集&lt;/a&gt; &lt;em&gt;(示例链接，请替换为实际URL)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.ventoy.net/iso.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官方支持镜像列表&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;✍️ 最后更新：2025年09月30日&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>归档</title>
+        <link>https://Smile-wa.github.io/archives/</link>
+        <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://Smile-wa.github.io/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>关于</title>
+        <link>https://Smile-wa.github.io/%E5%85%B3%E4%BA%8E/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://Smile-wa.github.io/%E5%85%B3%E4%BA%8E/</guid>
+        <description>&lt;p&gt;👨💻 野生科技宅 | 📦 开箱手速比退货快 | 🤖 关注我，一起为数码产品交学费（不是）」&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>搜索</title>
+        <link>https://Smile-wa.github.io/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://Smile-wa.github.io/search/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>友链</title>
+        <link>https://Smile-wa.github.io/%E5%8F%8B%E9%93%BE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://Smile-wa.github.io/%E5%8F%8B%E9%93%BE/</guid>
+        <description>&lt;h1 id=&#34;友链介绍&#34;&gt;友链介绍
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://Smile-wa.github.io/%E5%8F%8B%E9%93%BE/nikon.jpg&#34;
+	width=&#34;2720&#34;
+	height=&#34;1700&#34;
+	srcset=&#34;https://Smile-wa.github.io/%E5%8F%8B%E9%93%BE/nikon_hu_64e23ebce41c400.jpg 480w, https://Smile-wa.github.io/%E5%8F%8B%E9%93%BE/nikon_hu_913c5d70df210529.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;160&#34;
+		data-flex-basis=&#34;384px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;欢迎来到我的友链页面！这里收录了一些我自己搭建的影视资源搜索站点。如果你也拥有个人博客，并且内容与我的博客主题相关，欢迎申请友链！&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;期待与更多优秀的博主互相学习、共同成长！ 🌟&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
