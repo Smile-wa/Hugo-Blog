@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>网盘搜索 on 「Smile_Wang」</title>
+        <link>https://Smile-wa.github.io/tags/%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2/</link>
+        <description>Recent content in 网盘搜索 on 「Smile_Wang」</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>「像素胃溃疡」</copyright>
+        <lastBuildDate>Fri, 03 Oct 2025 16:26:20 +0800</lastBuildDate><atom:link href="https://Smile-wa.github.io/tags/%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>飞牛docker部署网盘搜索神器-PanSou</title>
+        <link>https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bdocker%E9%83%A8%E7%BD%B2%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2%E7%A5%9E%E5%99%A8-pansou/</link>
+        <pubDate>Fri, 03 Oct 2025 16:26:20 +0800</pubDate>
+        
+        <guid>https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bdocker%E9%83%A8%E7%BD%B2%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2%E7%A5%9E%E5%99%A8-pansou/</guid>
+        <description>&lt;img src="https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bdocker%E9%83%A8%E7%BD%B2%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2%E7%A5%9E%E5%99%A8-pansou/pansou.png" alt="Featured image of post 飞牛docker部署网盘搜索神器-PanSou" /&gt;&lt;h1 id=&#34;飞牛docker-compose图形化部署盘搜的完整教程&#34;&gt;飞牛Docker-Compose图形化部署盘搜的完整教程
+&lt;/h1&gt;&lt;h2 id=&#34;前言&#34;&gt;🧭前言
+&lt;/h2&gt;&lt;p&gt;飞牛NAS（FeiNiu NAS）是一款国产优秀的NAS操作系统，内置了强大的Docker管理功能。本教程将详细介绍如何利用飞牛NAS的图形化界面，通过Docker-Compose方式一键部署盘搜（PanSearch）服务。&lt;/p&gt;
+&lt;h2 id=&#34;-准备工作&#34;&gt;🧰 准备工作
+&lt;/h2&gt;&lt;h3 id=&#34;1-系统要求&#34;&gt;1. 系统要求
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;至少2GB可用内存&lt;/li&gt;
+&lt;li&gt;10GB以上存储空间&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-启用docker服务&#34;&gt;2. 启用Docker服务
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;登录飞牛NAS管理界面（通常为&lt;code&gt;http://你的NAS-IP&lt;/code&gt;）&lt;/li&gt;
+&lt;li&gt;桌面找到Docker应用&lt;/li&gt;
+&lt;li&gt;点击「启用Docker服务」按钮&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759480765199_docker1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;docker1.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;-部署盘搜服务&#34;&gt;🚀 部署盘搜服务
+&lt;/h2&gt;&lt;h3 id=&#34;1-创建compose项目&#34;&gt;1. 创建Compose项目
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;进入「Docker」→「Compose项目」&lt;/li&gt;
+&lt;li&gt;点击右上角「新建项目」按钮&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;2-填写项目配置&#34;&gt;2. 填写项目配置
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;项目名称&lt;/strong&gt;：&lt;code&gt;pansearch&lt;/code&gt;（可自定义）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;部署路径&lt;/strong&gt;：建议选择NAS存储空间较大的卷&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759480902091_pansou1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;pansou1.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-编写compose文件&#34;&gt;3. 编写Compose文件
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;services&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;pansou-web&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;ghcr.io/fish2018/pansou-web:latest&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;container_name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;pansou-web&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;restart&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;unless-stopped&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;ports&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;   &lt;/span&gt;- &lt;span class=&#34;s2&#34;&gt;&amp;#34;1080:80&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# 前面的端口号根据自己的实际情况修改&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;4-启动服务&#34;&gt;4. 启动服务
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;点击「确定」按钮&lt;/li&gt;
+&lt;li&gt;等待部署完成，在「容器」列表中找到pansearch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-验证与访问&#34;&gt;🌐 验证与访问
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;检查容器状态
+进入「Docker」→「容器」确认状态&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759481306706_pansou2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;pansou2.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;访问Web界面
+http://你的NAS-IP:1080&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759481402176_pansou.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;pansou.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;-常见问题解决&#34;&gt;🚨 常见问题解决
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;端口冲突&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;修改Compose文件中的端口号&lt;/li&gt;
+&lt;li&gt;或停止占用端口的服务&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;更新版本&lt;/li&gt;
+&lt;li&gt;停止项目&lt;/li&gt;
+&lt;li&gt;编辑Compose文件&lt;/li&gt;
+&lt;li&gt;点击「重新创建」&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;-结语&#34;&gt;🎯 结语
+&lt;/h2&gt;&lt;p&gt;通过飞牛NAS的图形化界面，轻松完成盘搜服务部署。如有问题欢迎留言讨论！&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
