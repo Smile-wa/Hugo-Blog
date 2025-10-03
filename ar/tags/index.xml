@@ -2,6 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on موقع تجريبي</title>
+<<<<<<< HEAD
         <link>http://localhost:1313/ar/tags/</link>
         <description>Recent content in Tags on موقع تجريبي</description>
         <generator>Hugo -- gohugo.io</generator>
@@ -32,5 +33,12 @@
         <description></description>
         </item>
         
+=======
+        <link>https://Smile-wa.github.io/ar/tags/</link>
+        <description>Recent content in Tags on موقع تجريبي</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ar</language>
+        <copyright>Example Person</copyright><atom:link href="https://Smile-wa.github.io/ar/tags/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
     </channel>
 </rss>

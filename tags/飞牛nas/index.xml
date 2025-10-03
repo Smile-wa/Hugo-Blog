@@ -2,11 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>飞牛NAS on 「Smile_Wang」</title>
+<<<<<<< HEAD
         <link>https://Smile-wa.github.io/tags/%E9%A3%9E%E7%89%9Bnas/</link>
+=======
+        <link>http://localhost:1313/tags/%E9%A3%9E%E7%89%9Bnas/</link>
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
         <description>Recent content in 飞牛NAS on 「Smile_Wang」</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>「像素胃溃疡」</copyright>
+<<<<<<< HEAD
         <lastBuildDate>Fri, 03 Oct 2025 16:26:20 +0800</lastBuildDate><atom:link href="https://Smile-wa.github.io/tags/%E9%A3%9E%E7%89%9Bnas/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>飞牛docker部署网盘搜索神器-PanSou</title>
         <link>https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bdocker%E9%83%A8%E7%BD%B2%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2%E7%A5%9E%E5%99%A8-pansou/</link>
@@ -137,6 +142,15 @@ http://你的NAS-IP:1080&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759
         
         <guid>https://Smile-wa.github.io/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/</guid>
         <description>&lt;img src="https://Smile-wa.github.io/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/omni.png" alt="Featured image of post 在飞牛NAS上部署Omni-Tools：打造您的全能工具箱" /&gt;&lt;h1 id=&#34;在飞牛nas上部署omni-tools打造您的全能工具箱&#34;&gt;在飞牛NAS上部署Omni-Tools：打造您的全能工具箱
+=======
+        <lastBuildDate>Fri, 03 Oct 2025 11:22:28 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E9%A3%9E%E7%89%9Bnas/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>在飞牛NAS上部署Omni-Tools：打造您的全能工具箱</title>
+        <link>http://localhost:1313/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/</link>
+        <pubDate>Fri, 03 Oct 2025 11:22:28 +0800</pubDate>
+        
+        <guid>http://localhost:1313/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/</guid>
+        <description>&lt;h1 id=&#34;在飞牛nas上部署omni-tools打造您的全能工具箱&#34;&gt;在飞牛NAS上部署Omni-Tools：打造您的全能工具箱
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
 &lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Omni-Tools&lt;/strong&gt; - 一个开箱即用的多功能工具集，提供文件转换、数据处理等各类实用功能&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;飞牛NAS&lt;/strong&gt; - 国产轻量级NAS系统，提供Docker容器支持&lt;/li&gt;
@@ -215,7 +229,11 @@ http://你的NAS-IP:1080&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759
 &lt;/ol&gt;
 &lt;h2 id=&#34;-访问您的私人工具箱&#34;&gt;🌐 访问您的私人工具箱
 &lt;/h2&gt;&lt;p&gt;现在可以通过以下方式访问：
+<<<<<<< HEAD
 http://你的NAS-IP:9080&lt;br&gt;
+=======
+http://你的NAS-IP:3500&lt;br&gt;
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
 Omni-Tools界面预览&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759462891231_omni.png&#34;
 	
 	
@@ -248,11 +266,19 @@ Omni-Tools界面预览&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/175946
         </item>
         <item>
         <title>飞牛NAS使用Lucky实现动态域名解析</title>
+<<<<<<< HEAD
         <link>https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8lucky%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</link>
         <pubDate>Wed, 01 Oct 2025 11:27:58 +0800</pubDate>
         
         <guid>https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8lucky%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</guid>
         <description>&lt;img src="https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8lucky%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/Fnos.png" alt="Featured image of post 飞牛NAS使用Lucky实现动态域名解析" /&gt;&lt;h1 id=&#34;使用lucky实现飞牛nas动态域名解析教程&#34;&gt;使用Lucky实现飞牛NAS动态域名解析教程
+=======
+        <link>http://localhost:1313/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8lucky%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</link>
+        <pubDate>Wed, 01 Oct 2025 11:27:58 +0800</pubDate>
+        
+        <guid>http://localhost:1313/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8lucky%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8lucky%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/Fnos.png" alt="Featured image of post 飞牛NAS使用Lucky实现动态域名解析" /&gt;&lt;h1 id=&#34;使用lucky实现飞牛nas动态域名解析教程&#34;&gt;使用Lucky实现飞牛NAS动态域名解析教程
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
 &lt;/h1&gt;&lt;h2 id=&#34;一前言&#34;&gt;一、前言
 &lt;/h2&gt;&lt;p&gt;飞牛NAS（FeiNiu NAS）作为国产新兴的NAS系统，许多用户希望通过域名远程访问设备。但家庭宽带通常没有固定公网IP，这时可以通过&lt;strong&gt;Lucky&lt;/strong&gt;（原&lt;code&gt;ddns-go&lt;/code&gt;）工具实现动态域名解析。&lt;/p&gt;
 &lt;h2 id=&#34;-二准备工作&#34;&gt;📦 二、准备工作

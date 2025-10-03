@@ -2,38 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on 「Smile_Wang」</title>
+<<<<<<< HEAD
         <link>https://Smile-wa.github.io/page/</link>
+=======
+        <link>http://localhost:1313/page/</link>
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
         <description>Recent content in Pages on 「Smile_Wang」</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>「像素胃溃疡」</copyright>
+<<<<<<< HEAD
         <lastBuildDate>Thu, 25 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Smile-wa.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>归档</title>
         <link>https://Smile-wa.github.io/archives/</link>
         <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
         
         <guid>https://Smile-wa.github.io/archives/</guid>
+=======
+        <lastBuildDate>Thu, 25 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>归档</title>
+        <link>http://localhost:1313/archives/</link>
+        <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/archives/</guid>
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
         <description></description>
         </item>
         <item>
         <title>关于</title>
+<<<<<<< HEAD
         <link>https://Smile-wa.github.io/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://Smile-wa.github.io/%E5%85%B3%E4%BA%8E/</guid>
+=======
+        <link>http://localhost:1313/%E5%85%B3%E4%BA%8E/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/%E5%85%B3%E4%BA%8E/</guid>
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
         <description>&lt;p&gt;👨💻 野生科技宅 | 📦 开箱手速比退货快 | 🤖 关注我，一起为数码产品交学费（不是）」&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>搜索</title>
+<<<<<<< HEAD
         <link>https://Smile-wa.github.io/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://Smile-wa.github.io/search/</guid>
+=======
+        <link>http://localhost:1313/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/search/</guid>
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
         <description></description>
         </item>
         <item>
         <title>友链</title>
+<<<<<<< HEAD
         <link>https://Smile-wa.github.io/%E5%8F%8B%E9%93%BE/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
@@ -43,6 +71,17 @@
 	width=&#34;2720&#34;
 	height=&#34;1700&#34;
 	srcset=&#34;https://Smile-wa.github.io/%E5%8F%8B%E9%93%BE/nikon_hu_64e23ebce41c400.jpg 480w, https://Smile-wa.github.io/%E5%8F%8B%E9%93%BE/nikon_hu_913c5d70df210529.jpg 1024w&#34;
+=======
+        <link>http://localhost:1313/%E5%8F%8B%E9%93%BE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/%E5%8F%8B%E9%93%BE/</guid>
+        <description>&lt;h1 id=&#34;友链介绍&#34;&gt;友链介绍
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/%E5%8F%8B%E9%93%BE/nikon.jpg&#34;
+	width=&#34;2720&#34;
+	height=&#34;1700&#34;
+	srcset=&#34;http://localhost:1313/%E5%8F%8B%E9%93%BE/nikon_hu_64e23ebce41c400.jpg 480w, http://localhost:1313/%E5%8F%8B%E9%93%BE/nikon_hu_913c5d70df210529.jpg 1024w&#34;
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
 	loading=&#34;lazy&#34;
 	
 	

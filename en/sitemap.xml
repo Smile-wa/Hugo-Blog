@@ -2,15 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+<<<<<<< HEAD
     <loc>https://Smile-wa.github.io/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://Smile-wa.github.io/categories/"
+=======
+    <loc>http://localhost:1313/en/</loc>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/"
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+<<<<<<< HEAD
                 href="https://Smile-wa.github.io/en/categories/"
                 />
   </url><url>
@@ -19,10 +29,22 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://Smile-wa.github.io/"
+=======
+                href="http://localhost:1313/en/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/archives/"
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+<<<<<<< HEAD
                 href="https://Smile-wa.github.io/en/"
                 />
   </url><url>
@@ -31,11 +53,87 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://Smile-wa.github.io/tags/"
+=======
+                href="http://localhost:1313/en/archives/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/page/</loc>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/page/"
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+<<<<<<< HEAD
                 href="https://Smile-wa.github.io/en/tags/"
+=======
+                href="http://localhost:1313/en/page/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/about/</loc>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/%E5%85%B3%E4%BA%8E/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/about/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/links/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/%E5%8F%8B%E9%93%BE/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/links/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/search/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/"
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
                 />
   </url>
 </urlset>

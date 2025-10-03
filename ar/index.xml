@@ -2,6 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>موقع تجريبي</title>
+<<<<<<< HEAD
         <link>http://localhost:1313/ar/</link>
         <description>Recent content on موقع تجريبي</description>
         <generator>Hugo -- gohugo.io</generator>
@@ -30,5 +31,12 @@
 </description>
         </item>
         
+=======
+        <link>https://Smile-wa.github.io/ar/</link>
+        <description>Recent content on موقع تجريبي</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ar</language>
+        <copyright>Example Person</copyright><atom:link href="https://Smile-wa.github.io/ar/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
     </channel>
 </rss>

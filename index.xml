@@ -2,11 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>「Smile_Wang」</title>
+<<<<<<< HEAD
         <link>https://Smile-wa.github.io/</link>
+=======
+        <link>http://localhost:1313/</link>
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
         <description>Recent content on 「Smile_Wang」</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>「像素胃溃疡」</copyright>
+<<<<<<< HEAD
         <lastBuildDate>Fri, 03 Oct 2025 16:26:20 +0800</lastBuildDate><atom:link href="https://Smile-wa.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>飞牛docker部署网盘搜索神器-PanSou</title>
         <link>https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bdocker%E9%83%A8%E7%BD%B2%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2%E7%A5%9E%E5%99%A8-pansou/</link>
@@ -137,6 +142,15 @@ http://你的NAS-IP:1080&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759
         
         <guid>https://Smile-wa.github.io/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/</guid>
         <description>&lt;img src="https://Smile-wa.github.io/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/omni.png" alt="Featured image of post 在飞牛NAS上部署Omni-Tools：打造您的全能工具箱" /&gt;&lt;h1 id=&#34;在飞牛nas上部署omni-tools打造您的全能工具箱&#34;&gt;在飞牛NAS上部署Omni-Tools：打造您的全能工具箱
+=======
+        <lastBuildDate>Fri, 03 Oct 2025 11:22:28 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>在飞牛NAS上部署Omni-Tools：打造您的全能工具箱</title>
+        <link>http://localhost:1313/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/</link>
+        <pubDate>Fri, 03 Oct 2025 11:22:28 +0800</pubDate>
+        
+        <guid>http://localhost:1313/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/omni.png" alt="Featured image of post 在飞牛NAS上部署Omni-Tools：打造您的全能工具箱" /&gt;&lt;h1 id=&#34;在飞牛nas上部署omni-tools打造您的全能工具箱&#34;&gt;在飞牛NAS上部署Omni-Tools：打造您的全能工具箱
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
 &lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Omni-Tools&lt;/strong&gt; - 一个开箱即用的多功能工具集，提供文件转换、数据处理等各类实用功能&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;飞牛NAS&lt;/strong&gt; - 国产轻量级NAS系统，提供Docker容器支持&lt;/li&gt;
@@ -248,11 +262,19 @@ Omni-Tools界面预览&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/175946
         </item>
         <item>
         <title>飞牛NAS使用Lucky实现动态域名解析</title>
+<<<<<<< HEAD
         <link>https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8lucky%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</link>
         <pubDate>Wed, 01 Oct 2025 11:27:58 +0800</pubDate>
         
         <guid>https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8lucky%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</guid>
         <description>&lt;img src="https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8lucky%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/Fnos.png" alt="Featured image of post 飞牛NAS使用Lucky实现动态域名解析" /&gt;&lt;h1 id=&#34;使用lucky实现飞牛nas动态域名解析教程&#34;&gt;使用Lucky实现飞牛NAS动态域名解析教程
+=======
+        <link>http://localhost:1313/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8lucky%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</link>
+        <pubDate>Wed, 01 Oct 2025 11:27:58 +0800</pubDate>
+        
+        <guid>http://localhost:1313/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8lucky%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8lucky%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/Fnos.png" alt="Featured image of post 飞牛NAS使用Lucky实现动态域名解析" /&gt;&lt;h1 id=&#34;使用lucky实现飞牛nas动态域名解析教程&#34;&gt;使用Lucky实现飞牛NAS动态域名解析教程
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
 &lt;/h1&gt;&lt;h2 id=&#34;一前言&#34;&gt;一、前言
 &lt;/h2&gt;&lt;p&gt;飞牛NAS（FeiNiu NAS）作为国产新兴的NAS系统，许多用户希望通过域名远程访问设备。但家庭宽带通常没有固定公网IP，这时可以通过&lt;strong&gt;Lucky&lt;/strong&gt;（原&lt;code&gt;ddns-go&lt;/code&gt;）工具实现动态域名解析。&lt;/p&gt;
 &lt;h2 id=&#34;-二准备工作&#34;&gt;📦 二、准备工作
@@ -438,11 +460,19 @@ http://你的NAS局域网IP:16601&lt;/li&gt;
         </item>
         <item>
         <title>Windows11系统安装教程</title>
+<<<<<<< HEAD
         <link>https://Smile-wa.github.io/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</link>
         <pubDate>Mon, 29 Sep 2025 16:28:18 +0800</pubDate>
         
         <guid>https://Smile-wa.github.io/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</guid>
         <description>&lt;img src="https://Smile-wa.github.io/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/Windows11.png" alt="Featured image of post Windows11系统安装教程" /&gt;&lt;h1 id=&#34;windows-11-安装指南从准备到完成的全流程&#34;&gt;Windows 11 安装指南：从准备到完成的全流程
+=======
+        <link>http://localhost:1313/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</link>
+        <pubDate>Mon, 29 Sep 2025 16:28:18 +0800</pubDate>
+        
+        <guid>http://localhost:1313/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</guid>
+        <description>&lt;img src="http://localhost:1313/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/Windows11.png" alt="Featured image of post Windows11系统安装教程" /&gt;&lt;h1 id=&#34;windows-11-安装指南从准备到完成的全流程&#34;&gt;Windows 11 安装指南：从准备到完成的全流程
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
 &lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758361044483_R-C.png&#34;
 	
 	
@@ -803,11 +833,19 @@ http://你的NAS局域网IP:16601&lt;/li&gt;
         </item>
         <item>
         <title>使用Ventoy制作启动U盘</title>
+<<<<<<< HEAD
         <link>https://Smile-wa.github.io/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/</link>
         <pubDate>Sat, 27 Sep 2025 14:57:04 +0800</pubDate>
         
         <guid>https://Smile-wa.github.io/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/</guid>
         <description>&lt;img src="https://Smile-wa.github.io/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/ventoy.png" alt="Featured image of post 使用Ventoy制作启动U盘" /&gt;&lt;h1 id=&#34;-使用ventoy制作万能u盘启动盘一u在手装遍所有系统&#34;&gt;🔥 使用Ventoy制作万能U盘启动盘：一U在手，装遍所有系统！
+=======
+        <link>http://localhost:1313/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/</link>
+        <pubDate>Sat, 27 Sep 2025 14:57:04 +0800</pubDate>
+        
+        <guid>http://localhost:1313/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/ventoy.png" alt="Featured image of post 使用Ventoy制作启动U盘" /&gt;&lt;h1 id=&#34;-使用ventoy制作万能u盘启动盘一u在手装遍所有系统&#34;&gt;🔥 使用Ventoy制作万能U盘启动盘：一U在手，装遍所有系统！
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
 &lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;无需反复格式化，一次制作永久使用！轻松管理多个系统镜像的终极解决方案&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.ventoy.net/static/img/screen/screen_uefi.png&#34;
@@ -1083,31 +1121,53 @@ Ventoy方式 → 只需1个U盘，20分钟完成部署&lt;/p&gt;
         </item>
         <item>
         <title>归档</title>
+<<<<<<< HEAD
         <link>https://Smile-wa.github.io/archives/</link>
         <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
         
         <guid>https://Smile-wa.github.io/archives/</guid>
+=======
+        <link>http://localhost:1313/archives/</link>
+        <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/archives/</guid>
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
         <description></description>
         </item>
         <item>
         <title>关于</title>
+<<<<<<< HEAD
         <link>https://Smile-wa.github.io/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://Smile-wa.github.io/%E5%85%B3%E4%BA%8E/</guid>
+=======
+        <link>http://localhost:1313/%E5%85%B3%E4%BA%8E/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/%E5%85%B3%E4%BA%8E/</guid>
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
         <description>&lt;p&gt;👨💻 野生科技宅 | 📦 开箱手速比退货快 | 🤖 关注我，一起为数码产品交学费（不是）」&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>搜索</title>
+<<<<<<< HEAD
         <link>https://Smile-wa.github.io/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://Smile-wa.github.io/search/</guid>
+=======
+        <link>http://localhost:1313/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/search/</guid>
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
         <description></description>
         </item>
         <item>
         <title>友链</title>
+<<<<<<< HEAD
         <link>https://Smile-wa.github.io/%E5%8F%8B%E9%93%BE/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
@@ -1117,6 +1177,17 @@ Ventoy方式 → 只需1个U盘，20分钟完成部署&lt;/p&gt;
 	width=&#34;2720&#34;
 	height=&#34;1700&#34;
 	srcset=&#34;https://Smile-wa.github.io/%E5%8F%8B%E9%93%BE/nikon_hu_64e23ebce41c400.jpg 480w, https://Smile-wa.github.io/%E5%8F%8B%E9%93%BE/nikon_hu_913c5d70df210529.jpg 1024w&#34;
+=======
+        <link>http://localhost:1313/%E5%8F%8B%E9%93%BE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/%E5%8F%8B%E9%93%BE/</guid>
+        <description>&lt;h1 id=&#34;友链介绍&#34;&gt;友链介绍
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/%E5%8F%8B%E9%93%BE/nikon.jpg&#34;
+	width=&#34;2720&#34;
+	height=&#34;1700&#34;
+	srcset=&#34;http://localhost:1313/%E5%8F%8B%E9%93%BE/nikon_hu_64e23ebce41c400.jpg 480w, http://localhost:1313/%E5%8F%8B%E9%93%BE/nikon_hu_913c5d70df210529.jpg 1024w&#34;
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
 	loading=&#34;lazy&#34;
 	
 	

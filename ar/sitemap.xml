@@ -2,21 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+<<<<<<< HEAD
     <loc>http://localhost:1313/ar/categories/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/categories/"
+=======
+    <loc>https://Smile-wa.github.io/ar/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://Smile-wa.github.io/en/categories/"
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
+<<<<<<< HEAD
                 href="http://localhost:1313/zh-cn/categories/"
+=======
+                href="https://Smile-wa.github.io/categories/"
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
+<<<<<<< HEAD
                 href="http://localhost:1313/ar/categories/"
                 />
   </url><url>
@@ -26,15 +39,30 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/post/"
+=======
+                href="https://Smile-wa.github.io/ar/categories/"
+                />
+  </url><url>
+    <loc>https://Smile-wa.github.io/ar/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://Smile-wa.github.io/en/tags/"
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
+<<<<<<< HEAD
                 href="http://localhost:1313/zh-cn/post/"
+=======
+                href="https://Smile-wa.github.io/tags/"
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
+<<<<<<< HEAD
                 href="http://localhost:1313/ar/post/"
                 />
   </url><url>
@@ -44,15 +72,30 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/tags/"
+=======
+                href="https://Smile-wa.github.io/ar/tags/"
+                />
+  </url><url>
+    <loc>https://Smile-wa.github.io/ar/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://Smile-wa.github.io/en/"
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
+<<<<<<< HEAD
                 href="http://localhost:1313/zh-cn/tags/"
+=======
+                href="https://Smile-wa.github.io/"
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
+<<<<<<< HEAD
                 href="http://localhost:1313/ar/tags/"
                 />
   </url><url>
@@ -101,5 +144,9 @@
   </url><url>
     <loc>http://localhost:1313/ar/tags/%D9%88%D8%B3%D9%85-%D9%85%D8%B9-%D9%81%D8%B1%D8%A7%D8%BA%D8%A7%D8%AA/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+=======
+                href="https://Smile-wa.github.io/ar/"
+                />
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
   </url>
 </urlset>

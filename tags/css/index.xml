@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
+<<<<<<< HEAD
         <title>Css on 「Smile_Wang」</title>
         <link>http://localhost:1313/tags/css/</link>
         <description>Recent content in Css on 「Smile_Wang」</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>「像素胃溃疡」</copyright>
+=======
+        <title>Css on 「二进制幼儿园」</title>
+        <link>http://localhost:1313/tags/css/</link>
+        <description>Recent content in Css on 「二进制幼儿园」</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Example Person</copyright>
+>>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
         <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/css/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Markdown Syntax Guide</title>
         <link>http://localhost:1313/p/markdown-syntax-guide/</link>
