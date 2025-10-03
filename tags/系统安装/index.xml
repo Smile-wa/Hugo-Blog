@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>系统安装 on 「Smile_Wang」</title>
+        <link>http://localhost:1313/tags/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/</link>
+        <description>Recent content in 系统安装 on 「Smile_Wang」</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>「像素胃溃疡」</copyright>
+        <lastBuildDate>Mon, 29 Sep 2025 16:28:18 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Windows11系统安装教程</title>
+        <link>http://localhost:1313/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</link>
+        <pubDate>Mon, 29 Sep 2025 16:28:18 +0800</pubDate>
+        
+        <guid>http://localhost:1313/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</guid>
+        <description>&lt;img src="http://localhost:1313/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/Windows11.png" alt="Featured image of post Windows11系统安装教程" /&gt;&lt;h1 id=&#34;windows-11-安装指南从准备到完成的全流程&#34;&gt;Windows 11 安装指南：从准备到完成的全流程
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758361044483_R-C.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Windows 11 封面图&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言
+&lt;/h2&gt;&lt;p&gt;Windows 11 带来了全新的界面设计和性能优化。本教程将详细介绍通过官方镜像安装Windows 11的完整流程，包含&lt;strong&gt;硬件检测&lt;/strong&gt;、&lt;strong&gt;安装介质制作&lt;/strong&gt;和&lt;strong&gt;系统配置&lt;/strong&gt;关键步骤。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;一准备工作&#34;&gt;一、准备工作
+&lt;/h2&gt;&lt;h3 id=&#34;1-硬件要求检查&#34;&gt;1. 硬件要求检查
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;处理器：1GHz 或更快，支持64位&lt;/li&gt;
+&lt;li&gt;内存：≥4GB&lt;/li&gt;
+&lt;li&gt;存储：≥64GB&lt;/li&gt;
+&lt;li&gt;TPM 2.0 芯片（可通过&lt;code&gt;tpm.msc&lt;/code&gt;验证）&lt;/li&gt;
+&lt;li&gt;安全启动支持&lt;/li&gt;
+&lt;li&gt;确保电脑开启UEFI模式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 使用微软官方&lt;a class=&#34;link&#34; href=&#34;https://aka.ms/GetPCHealthCheckApp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PC Health Check&lt;/a&gt;工具检测兼容性&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;2-必备工具&#34;&gt;2. 必备工具
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Ventoy启动U盘（可以参考&lt;a class=&#34;link&#34; href=&#34;https://myblog.xwgt.xyz/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;使用Ventoy制作万能U盘启动盘：一U在手，装遍所有系统！&lt;/a&gt;制作）。&lt;/li&gt;
+&lt;li&gt;有效的Windows产品密钥（非必须，可后期激活）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;二创建安装介质&#34;&gt;二、创建安装介质
+&lt;/h2&gt;&lt;h3 id=&#34;下载官方镜像&#34;&gt;下载官方镜像
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://go.microsoft.com/fwlink/?linkid=2156295&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;下载微软官方下载工具&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;双击打开下载的微软官方下载软件点击“接受”&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758361899990_win11%e6%9d%a1%e6%ac%be.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;win11条款.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择默认设置，点击“下一步”&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758362040591_%e7%89%88%e6%9c%ac%e9%80%89%e6%8b%a9.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;版本选择.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择“IOS文件”，然后点击“下一步”&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758362124635_IOS.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;IOS.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择合适的保存位置，然后点击“保存”&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758362284201_%e4%b8%8b%e8%bd%bd%e4%bd%8d%e7%bd%ae.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;下载位置.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;等待下载完成&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758362365609_%e5%bc%80%e5%a7%8b%e4%b8%8b%e8%bd%bd.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;开始下载.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;将下载完成的文件复制到准备好的启动U盘。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;三开始安装&#34;&gt;三、开始安装
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;将复制好镜像文件的U盘插入电脑；&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758420549050_%e9%95%9c%e5%83%8f%e6%8b%b7%e8%b4%9d.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;镜像拷贝.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;重启电脑，按快捷启动键（华硕为F8，联想为F12，其他品牌我也没用过请自行百度）进入启动项选择界面；&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758444842236_01.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;01.jpg&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择UEFI开头U盘选项，按回车键确认；&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758444842236_01.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;01.jpg&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择“Windows11.IOS&amp;quot;选项，按回车键确认；&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758444915412_02.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;02.jpg&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择“Boot in normal mode”选项，按回车键确认；&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758444976322_03.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;03.jpg&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;按需求选择要安装的语言、时间和货币格式，然后点击“下一步”；&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758445080812_04.avif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;04.avif&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;按需选择键盘和输入法，然后点击下一步；&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758445228337_05.avif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;05.avif&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;点击“安装Windows11”选项，勾选“我同意删除所有内容，包括文件、应用和设置”，然后点击“下一步”；&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758445293576_06.avif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;06.avif&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择想要安装的系统版本，然后点击“下一步”；&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758445462597_08.avif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;08.avif&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;点击“接受”&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758445523892_09.avif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;09.avif&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择需要安装的硬盘分区（⚠️&lt;strong&gt;如果电脑存在多个硬盘，注意区分，避免造成数据丢失！&lt;/strong&gt;），然后点击“下一步”；&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758445575612_10.avif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;10.avif&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;准备就绪后，点击“安装”&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758445900441_11.avif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;11.avif&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;等待安装完成，系统将自动重启；&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758445969876_12.avif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;12.avif&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;四首次启动后的设置&#34;&gt;四、首次启动后的设置
+&lt;/h2&gt;&lt;h3 id=&#34;注意事项&#34;&gt;注意事项
+&lt;/h3&gt;&lt;p&gt;⚠️ &lt;strong&gt;网络连接&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果不使用微软账户，建议跳过网络连接&lt;/li&gt;
+&lt;li&gt;按 &lt;code&gt;Shift+F10&lt;/code&gt; 输入 &lt;code&gt;OOBE\BYPASSNRO&lt;/code&gt; 可彻底跳过联网（企业版无效）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;分步设置流程&#34;&gt;分步设置流程
+&lt;/h3&gt;&lt;h4 id=&#34;1-区域与键盘布局&#34;&gt;1. 区域与键盘布局
+&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;示例选择：  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- 国家/地区：中国 （建议选择欧盟地区国家，因为欧盟《数字市场法案》，微软解除了大部分系统服务的强制性绑定 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- 输入法：微软拼音（保留美式键盘布局）
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id=&#34;2-微软账户登录&#34;&gt;2. 微软账户登录
+&lt;/h4&gt;&lt;p&gt;✅ 推荐方案：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;选择「脱机账户」→ 左下角点击「有限的体验」&lt;/li&gt;
+&lt;li&gt;本地用户名避免使用中文（部分老旧软件兼容性问题）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;❌ 高危操作：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用企业邮箱登录可能导致BitLocker自动加密&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;3-隐私设置关键步骤&#34;&gt;3. 隐私设置（关键步骤）
+&lt;/h4&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;选项&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;建议设置&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;说明&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;诊断数据&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;关闭&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;减少数据上传&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;活动历史记录&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;关闭&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;保护隐私&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;广告ID&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;关闭&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;降低个性化广告&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;位置服务&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;按需开启&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;笔记本用户建议关闭&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;4-驱动安装&#34;&gt;4. 驱动安装
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;官方驱动下载优先级：主板官网 &amp;gt; 微软更新 &amp;gt; 硬件厂商官网&lt;/li&gt;
+&lt;li&gt;最好不要使用“驱动精灵”、“360驱动”等第三方工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;5-系统激活&#34;&gt;5. 系统激活
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;以前安装过会联网自动激活&lt;/li&gt;
+&lt;li&gt;首次安装推荐某宝几块钱买个激活码&lt;/li&gt;
+&lt;li&gt;也可以网上搜激活工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;常见问题&#34;&gt;常见问题
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;❌ 问题1：安装时提示「无法创建新分区」&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;✅ 解决：删除所有分区后重新新建，或使用DiskPart工具清理磁盘&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;❌ 问题2：启动盘无法识别&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;✅ 解决：检查BIOS是否启用UEFI模式，或重新制作启动盘&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
