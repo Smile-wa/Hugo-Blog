@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>网盘搜索 on 「Smile_Wang」</title>
-        <link>http://localhost:1313/tags/%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2/</link>
+        <link>https://Smile-wa.github.io/tags/%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2/</link>
         <description>Recent content in 网盘搜索 on 「Smile_Wang」</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>「像素胃溃疡」</copyright>
-        <lastBuildDate>Fri, 03 Oct 2025 16:26:20 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 03 Oct 2025 16:26:20 +0800</lastBuildDate><atom:link href="https://Smile-wa.github.io/tags/%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>飞牛docker部署网盘搜索神器-PanSou</title>
-        <link>http://localhost:1313/p/%E9%A3%9E%E7%89%9Bdocker%E9%83%A8%E7%BD%B2%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2%E7%A5%9E%E5%99%A8-pansou/</link>
+        <link>https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bdocker%E9%83%A8%E7%BD%B2%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2%E7%A5%9E%E5%99%A8-pansou/</link>
         <pubDate>Fri, 03 Oct 2025 16:26:20 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E9%A3%9E%E7%89%9Bdocker%E9%83%A8%E7%BD%B2%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2%E7%A5%9E%E5%99%A8-pansou/</guid>
-        <description>&lt;img src="http://localhost:1313/p/%E9%A3%9E%E7%89%9Bdocker%E9%83%A8%E7%BD%B2%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2%E7%A5%9E%E5%99%A8-pansou/pansou.png" alt="Featured image of post 飞牛docker部署网盘搜索神器-PanSou" /&gt;&lt;h1 id=&#34;飞牛docker-compose图形化部署盘搜的完整教程&#34;&gt;飞牛Docker-Compose图形化部署盘搜的完整教程
+        <guid>https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bdocker%E9%83%A8%E7%BD%B2%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2%E7%A5%9E%E5%99%A8-pansou/</guid>
+        <description>&lt;img src="https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bdocker%E9%83%A8%E7%BD%B2%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2%E7%A5%9E%E5%99%A8-pansou/pansou.png" alt="Featured image of post 飞牛docker部署网盘搜索神器-PanSou" /&gt;&lt;h1 id=&#34;飞牛docker-compose图形化部署盘搜的完整教程&#34;&gt;飞牛Docker-Compose图形化部署盘搜的完整教程
 &lt;/h1&gt;&lt;h2 id=&#34;前言&#34;&gt;🧭前言
 &lt;/h2&gt;&lt;p&gt;飞牛NAS（FeiNiu NAS）是一款国产优秀的NAS操作系统，内置了强大的Docker管理功能。本教程将详细介绍如何利用飞牛NAS的图形化界面，通过Docker-Compose方式一键部署盘搜（PanSearch）服务。&lt;/p&gt;
 &lt;h2 id=&#34;-准备工作&#34;&gt;🧰 准备工作
