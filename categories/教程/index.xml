@@ -2,24 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>教程 on 「Smile_Wang」</title>
-<<<<<<< HEAD
-        <link>https://Smile-wa.github.io/categories/%E6%95%99%E7%A8%8B/</link>
-=======
         <link>http://localhost:1313/categories/%E6%95%99%E7%A8%8B/</link>
->>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
         <description>Recent content in 教程 on 「Smile_Wang」</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>「像素胃溃疡」</copyright>
-<<<<<<< HEAD
-        <lastBuildDate>Mon, 29 Sep 2025 16:28:18 +0800</lastBuildDate><atom:link href="https://Smile-wa.github.io/categories/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Windows11系统安装教程</title>
-        <link>https://Smile-wa.github.io/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</link>
-        <pubDate>Mon, 29 Sep 2025 16:28:18 +0800</pubDate>
-        
-        <guid>https://Smile-wa.github.io/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</guid>
-        <description>&lt;img src="https://Smile-wa.github.io/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/Windows11.png" alt="Featured image of post Windows11系统安装教程" /&gt;&lt;h1 id=&#34;windows-11-安装指南从准备到完成的全流程&#34;&gt;Windows 11 安装指南：从准备到完成的全流程
-=======
         <lastBuildDate>Mon, 29 Sep 2025 16:28:18 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Windows11系统安装教程</title>
         <link>http://localhost:1313/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</link>
@@ -27,7 +14,6 @@
         
         <guid>http://localhost:1313/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</guid>
         <description>&lt;img src="http://localhost:1313/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/Windows11.png" alt="Featured image of post Windows11系统安装教程" /&gt;&lt;h1 id=&#34;windows-11-安装指南从准备到完成的全流程&#34;&gt;Windows 11 安装指南：从准备到完成的全流程
->>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
 &lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758361044483_R-C.png&#34;
 	
 	
@@ -388,19 +374,11 @@
         </item>
         <item>
         <title>使用Ventoy制作启动U盘</title>
-<<<<<<< HEAD
-        <link>https://Smile-wa.github.io/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/</link>
-        <pubDate>Sat, 27 Sep 2025 14:57:04 +0800</pubDate>
-        
-        <guid>https://Smile-wa.github.io/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/</guid>
-        <description>&lt;img src="https://Smile-wa.github.io/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/ventoy.png" alt="Featured image of post 使用Ventoy制作启动U盘" /&gt;&lt;h1 id=&#34;-使用ventoy制作万能u盘启动盘一u在手装遍所有系统&#34;&gt;🔥 使用Ventoy制作万能U盘启动盘：一U在手，装遍所有系统！
-=======
         <link>http://localhost:1313/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/</link>
         <pubDate>Sat, 27 Sep 2025 14:57:04 +0800</pubDate>
         
         <guid>http://localhost:1313/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/</guid>
         <description>&lt;img src="http://localhost:1313/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/ventoy.png" alt="Featured image of post 使用Ventoy制作启动U盘" /&gt;&lt;h1 id=&#34;-使用ventoy制作万能u盘启动盘一u在手装遍所有系统&#34;&gt;🔥 使用Ventoy制作万能U盘启动盘：一U在手，装遍所有系统！
->>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
 &lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;无需反复格式化，一次制作永久使用！轻松管理多个系统镜像的终极解决方案&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.ventoy.net/static/img/screen/screen_uefi.png&#34;

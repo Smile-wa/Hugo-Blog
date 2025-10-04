@@ -2,26 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-<<<<<<< HEAD
-    <loc>https://Smile-wa.github.io/zh-cn/sitemap.xml</loc>
-    
-      <lastmod>2025-10-03T16:26:20+08:00</lastmod>
-=======
     <loc>http://localhost:1313/zh-cn/sitemap.xml</loc>
     
-      <lastmod>2025-10-03T11:22:28+08:00</lastmod>
->>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
+      <lastmod>2025-10-03T16:26:20+08:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-<<<<<<< HEAD
-    <loc>https://Smile-wa.github.io/en/sitemap.xml</loc>
-=======
     <loc>http://localhost:1313/en/sitemap.xml</loc>
-    
-      <lastmod>2020-10-09T00:00:00+00:00</lastmod>
->>>>>>> 210901db28d6ed81be988915bf6e89c89f58c24a
     
   </sitemap>
   
