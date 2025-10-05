@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://Smile-wa.github.io/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/'>
 
-<link rel="stylesheet" href="/scss/style.min.23c24c2835d2795ab601c10a82c0844a8722b1a11b58c52a5f15a9f5f7381558.css"><meta property='og:title' content="在飞牛NAS上部署Omni-Tools：打造您的全能工具箱">
+<link rel="stylesheet" href="/scss/style.min.eae87b937e7106f62676e9030f7cf89d822c3d66a3645b29bccc2415b4daf475.css"><meta property='og:title' content="在飞牛NAS上部署Omni-Tools：打造您的全能工具箱">
 <meta property='og:description' content="介绍如何使用飞牛部署Omni-Tools">
 <meta property='og:url' content='https://Smile-wa.github.io/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/'>
 <meta property='og:site_name' content='「Smile_Wang」'>
@@ -316,7 +316,7 @@
     
     <header class="article-category">
         
-            <a href="/categories/%E9%A3%9E%E7%89%9Bnas/" style="background-color: #2a9d8f; color: #fff;">
+            <a href="/categories/%E9%A3%9E%E7%89%9Bnas/" style="background-color: #E2A16F; color: #fff;">
                 飞牛NAS
             </a>
         
@@ -594,17 +594,57 @@ Omni-Tools界面预览<img src="https://img.xiaowtx.dpdns.org/file/1759462891231
     
 
     <footer class="site-footer">
+    
+    <section class="running-time">
+        本博客已稳定运行
+        <span id="runningdays" class="running-days"></span>
+        <script>
+            const startDate = new Date("");
+            const today = new Date();
+            const diffDays = Math.floor((today - startDate) / (86400000));
+            document.getElementById("runningdays").textContent = `${diffDays}天`;
+        </script>
+    </section>
+
+    
+    <section class="totalcount">
+        
+        
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+        
+        发表了5篇文章 · 
+        总计5.36k字
+    </section>
+
+    
     <section class="copyright">
         &copy; 
         
-        2025 「Smile_Wang」
+            
+                2025
+            
+        
+        「Smile_Wang」
         
     </section>
+
+    
     <section class="powerby">
+        Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
+        <span class="divider">|</span>
         <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">鲁ICP备2025185588号</a>
     </section>
 </footer>
-
 
     
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
@@ -690,7 +730,29 @@ Omni-Tools界面预览<img src="https://img.xiaowtx.dpdns.org/file/1759462891231
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+            </script><script src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    function backToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const totopBtn = document.getElementById('back-to-top');
+        if (!totopBtn) return;
+
+        updateBackToTopBtn();
+        window.addEventListener('scroll', updateBackToTopBtn);
+        totopBtn.addEventListener('click', backToTop);
+
+        function updateBackToTopBtn() {
+            const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+            totopBtn.style.display = scrollTop > 200 ? 'inline' : 'none';
+        }
+    });
+</script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -702,6 +764,116 @@ Omni-Tools界面预览<img src="https://img.xiaowtx.dpdns.org/file/1759462891231
         document.head.appendChild(customFont);
     }());
 </script>
+
+
+<script>
+ let s1 = '2025-09-27'; 
+ s1 = new Date(s1.replace(/-/g, "/"));
+ let s2 = new Date();
+
+ 
+ let diffInMilliseconds = s2.getTime() - s1.getTime();
+ let totalDays = Math.floor(diffInMilliseconds / (1000 * 60 * 60 * 24));
+
+ 
+ let years = s2.getFullYear() - s1.getFullYear();
+ let months = s2.getMonth() - s1.getMonth();
+ let days = s2.getDate() - s1.getDate();
+
+ 
+ if (days < 0) {
+   months -= 1;
+   let prevMonth = new Date(s2.getFullYear(), s2.getMonth(), 0); 
+   days += prevMonth.getDate();
+ }
+ if (months < 0) {
+   years -= 1;
+   months += 12;
+ }
+
+ 
+ let result = `${years}年${months}月${days}天`;
+ document.getElementById('runningdays').innerHTML = result;
+</script>
+
+<a href="#" id="back-to-top" title="返回顶部"></a>
+
+
+<style>
+  #back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+    width: 40px;  
+    height: 40px;  
+    border-radius: 50%;  
+    background-color: var(--body-background);
+    box-shadow: var(--shadow-l2);
+    font-size: 20px;  
+    text-align: center;
+    line-height: 38px;  
+    cursor: pointer;
+    transition:
+      transform 0.3s ease,
+      background-color 0.3s ease;  
+  }
+
+  #back-to-top:before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    transform: rotate(135deg);
+    height: 8px;  
+    width: 8px;  
+    border-width: 0 0 2px 2px;
+    border-color: var(--back-to-top-color);
+    border-style: solid;
+  }
+
+  #back-to-top:hover {
+    transform: scale(1.1);  
+    background-color: var(--accent-background);  
+  }
+
+  #back-to-top:hover:before {
+    border-color: var(--accent-color);  
+  }
+
+   
+  @media screen and (max-width: 768px) {
+    #back-to-top {
+      bottom: 5px;
+      right: var(--container-padding);
+      width: 30px;  
+      height: 30px;
+      font-size: 16px;
+      line-height: 32px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    #back-to-top {
+      bottom: 10px;
+      right: 20px;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    #back-to-top {
+      bottom: 15px;
+      right: 25px;
+    }
+  }
+
+  @media screen and (min-width: 1536px) {
+    #back-to-top {
+      bottom: 15px;
+      right: 25px;
+       
+    }
+  }
+</style>
 
     </body>
 </html>
