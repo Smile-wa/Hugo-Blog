@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head>
-	<meta name="generator" content="Hugo 0.150.1"><meta charset='utf-8'>
+	<meta name="generator" content="Hugo 0.151.0"><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="消化所有难啃的科技干货，输出易吸收的数码营养剂！">
 <title>「Smile_Wang」</title>
 
 <link rel='canonical' href='https://Smile-wa.github.io/'>
 
-<link rel="stylesheet" href="/scss/style.min.eae87b937e7106f62676e9030f7cf89d822c3d66a3645b29bccc2415b4daf475.css"><meta property='og:title' content="「Smile_Wang」">
+<link rel="stylesheet" href="/scss/style.min.3ede5161eab0ec0d6c1f9f71ba2cf77c5afec74004d7ce8e54544fb3dd4549e3.css"><meta property='og:title' content="「Smile_Wang」">
 <meta property='og:description' content="消化所有难啃的科技干货，输出易吸收的数码营养剂！">
 <meta property='og:url' content='https://Smile-wa.github.io/'>
 <meta property='og:site_name' content='「Smile_Wang」'>
@@ -760,57 +760,145 @@
         
     </section>
 <footer class="site-footer">
-    
-    <section class="running-time">
-        本博客已稳定运行
-        <span id="runningdays" class="running-days"></span>
-        <script>
-            const startDate = new Date("");
-            const today = new Date();
-            const diffDays = Math.floor((today - startDate) / (86400000));
-            document.getElementById("runningdays").textContent = `${diffDays}天`;
-        </script>
-    </section>
+    <div class="footer-content">
+        
+        <div class="footer-item">
+            <span class="footer-icon">⏱️</span>
+            <span class="footer-text">本博客已稳定运行</span>
+            <span id="runningdays" class="running-days highlight"></span>
+            <script>
+                const startDate = new Date("");
+                const today = new Date();
+                const diffDays = Math.floor((today - startDate) / (86400000));
+                document.getElementById("runningdays").textContent = `${diffDays}天`;
+            </script>
+        </div>
 
-    
-    <section class="totalcount">
         
-        
-        
+        <div class="footer-item">
+            <span class="footer-icon">📝</span>
             
-        
             
-        
             
-        
+                
             
-        
+                
             
-        
-        
-        发表了5篇文章 · 
-        总计5.36k字
-    </section>
+                
+            
+                
+            
+                
+            
+            
+            <span class="footer-text">发表了5篇文章 · 总计5.36k字</span>
+        </div>
 
-    
-    <section class="copyright">
-        &copy; 
         
-            
-                2025
-            
-        
-        「Smile_Wang」
-        
-    </section>
+        <div class="footer-item">
+            <span class="footer-icon">👥</span>
+            <span class="footer-text">访客数: <span id='vercount_value_site_uv'>Loading</span></span>
+            <span class="footer-divider">|</span>
+            <span class="footer-text">访问量: <span id='vercount_value_site_pv'>Loading</span></span>
+        </div>
 
-    
-    <section class="powerby">
-        Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
-        <span class="divider">|</span>
-        <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">鲁ICP备2025185588号</a>
-    </section>
+        
+        <div class="footer-item copyright">
+            <span class="footer-icon">©</span>
+            <span class="footer-text">
+                
+                    
+                        2025
+                    
+                
+                「Smile_Wang」
+            </span>
+        </div>
+
+        
+        <div class="footer-item powerby">
+            <span class="footer-text">
+                Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
+                <span class="footer-divider">|</span>
+                <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">鲁ICP备2025185588号</a>
+            </span>
+        </div>
+
+        
+    </div>
 </footer>
+
+<style>
+.site-footer {
+    padding: 1.5rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    border-top: 1px solid #eee;
+    background-color: #f9f9f9;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}
+
+.footer-icon {
+    margin-right: 0.3rem;
+    opacity: 0.7;
+}
+
+.footer-text {
+    line-height: 1.5;
+}
+
+.footer-divider {
+    color: #ccc;
+    padding: 0 0.3rem;
+}
+
+.highlight {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.copyright, .powerby {
+    margin-top: 0.5rem;
+}
+
+a {
+    color: #2c3e50;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #1a73e8;
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .footer-item {
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+    
+    .footer-divider {
+        display: none;
+    }
+}
+</style>
             </main>
         </div>
         <script 
@@ -852,115 +940,129 @@
     }());
 </script>
 
-
 <script>
- let s1 = '2025-09-27'; 
- s1 = new Date(s1.replace(/-/g, "/"));
- let s2 = new Date();
-
- 
- let diffInMilliseconds = s2.getTime() - s1.getTime();
- let totalDays = Math.floor(diffInMilliseconds / (1000 * 60 * 60 * 24));
-
- 
- let years = s2.getFullYear() - s1.getFullYear();
- let months = s2.getMonth() - s1.getMonth();
- let days = s2.getDate() - s1.getDate();
-
- 
- if (days < 0) {
-   months -= 1;
-   let prevMonth = new Date(s2.getFullYear(), s2.getMonth(), 0); 
-   days += prevMonth.getDate();
- }
- if (months < 0) {
-   years -= 1;
-   months += 12;
- }
-
- 
- let result = `${years}年${months}月${days}天`;
- document.getElementById('runningdays').innerHTML = result;
+(function() {
+    
+    const calculateRunningTime = () => {
+        const startDate = new Date('2025-09-27T00:00:00'); 
+        const currentDate = new Date();
+        
+        
+        const diffTime = currentDate - startDate;
+        const totalDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+        
+        
+        let years = currentDate.getFullYear() - startDate.getFullYear();
+        let months = currentDate.getMonth() - startDate.getMonth();
+        let days = currentDate.getDate() - startDate.getDate();
+        
+        
+        if (days < 0) {
+            months--;
+            const lastDayOfPrevMonth = new Date(
+                currentDate.getFullYear(), 
+                currentDate.getMonth(), 
+                0
+            ).getDate();
+            days += lastDayOfPrevMonth;
+        }
+        
+        if (months < 0) {
+            years--;
+            months += 12;
+        }
+        
+        
+        const runningDaysEl = document.getElementById('runningdays');
+        if (runningDaysEl) {
+            runningDaysEl.textContent = `${years}年${months}月${days}天`;
+        }
+    };
+    
+    
+    document.addEventListener('DOMContentLoaded', calculateRunningTime);
+    
+    
+    setInterval(calculateRunningTime, 86400000);
+})();
 </script>
 
-<a href="#" id="back-to-top" title="返回顶部"></a>
 
+<a href="#" id="back-to-top" title="返回顶部" aria-label="返回顶部">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 8L6 14L7.41 15.41L12 10.83L16.59 15.41L18 14L12 8Z" fill="currentColor"/>
+    </svg>
+</a>
 
 <style>
-  #back-to-top {
+ 
+#back-to-top {
     display: none;
     position: fixed;
-    bottom: 5px;
-    right: 15px;
-    width: 40px;  
-    height: 40px;  
-    border-radius: 50%;  
-    background-color: var(--body-background);
-    box-shadow: var(--shadow-l2);
-    font-size: 20px;  
+    bottom: 20px;
+    right: 20px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    color: #333;
     text-align: center;
-    line-height: 38px;  
     cursor: pointer;
-    transition:
-      transform 0.3s ease,
-      background-color 0.3s ease;  
-  }
+    z-index: 999;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    opacity: 0.8;
+}
 
-  #back-to-top:before {
-    content: "";
-    display: inline-block;
-    position: relative;
-    transform: rotate(135deg);
-    height: 8px;  
-    width: 8px;  
-    border-width: 0 0 2px 2px;
-    border-color: var(--back-to-top-color);
-    border-style: solid;
-  }
+#back-to-top:hover {
+    opacity: 1;
+    transform: translateY(-3px);
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
 
-  #back-to-top:hover {
-    transform: scale(1.1);  
-    background-color: var(--accent-background);  
-  }
+#back-to-top svg {
+    margin-top: 12px;
+    width: 24px;
+    height: 24px;
+}
 
-  #back-to-top:hover:before {
-    border-color: var(--accent-color);  
-  }
-
-   
-  @media screen and (max-width: 768px) {
+ 
+@media (max-width: 768px) {
     #back-to-top {
-      bottom: 5px;
-      right: var(--container-padding);
-      width: 30px;  
-      height: 30px;
-      font-size: 16px;
-      line-height: 32px;
+        width: 40px;
+        height: 40px;
+        bottom: 15px;
+        right: 15px;
     }
-  }
+    
+    #back-to-top svg {
+        margin-top: 10px;
+        width: 20px;
+        height: 20px;
+    }
+}
 
-  @media screen and (min-width: 1024px) {
-    #back-to-top {
-      bottom: 10px;
-      right: 20px;
+ 
+window.addEventListener('scroll', function() {
+    const backToTop = document.getElementById('back-to-top');
+    if (window.pageYOffset > 300) {
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
     }
-  }
-
-  @media screen and (min-width: 1280px) {
-    #back-to-top {
-      bottom: 15px;
-      right: 25px;
-    }
-  }
-
-  @media screen and (min-width: 1536px) {
-    #back-to-top {
-      bottom: 15px;
-      right: 25px;
-       
-    }
-  }
+});
 </style>
 
+
+<script>
+window.addEventListener('load', function() {
+    const script = document.createElement('script');
+    script.src = 'https://events.vercount.one/js';
+    script.defer = true;
+    document.body.appendChild(script);
+});
+</script>
     </body>
 </html>
