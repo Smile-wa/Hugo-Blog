@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>IPV6 on 「Smile_Wang」</title>
+        <link>https://Smile-wa.github.io/tags/ipv6/</link>
+        <description>Recent content in IPV6 on 「Smile_Wang」</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>「像素胃溃疡」</copyright>
+        <lastBuildDate>Tue, 07 Oct 2025 11:27:45 +0800</lastBuildDate><atom:link href="https://Smile-wa.github.io/tags/ipv6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>飞牛NAS使用EdgeOne实现双栈访问</title>
+        <link>https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8edgeone%E5%AE%9E%E7%8E%B0%E5%8F%8C%E6%A0%88%E8%AE%BF%E9%97%AE/</link>
+        <pubDate>Tue, 07 Oct 2025 11:27:45 +0800</pubDate>
+        
+        <guid>https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8edgeone%E5%AE%9E%E7%8E%B0%E5%8F%8C%E6%A0%88%E8%AE%BF%E9%97%AE/</guid>
+        <description>&lt;img src="https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8edgeone%E5%AE%9E%E7%8E%B0%E5%8F%8C%E6%A0%88%E8%AE%BF%E9%97%AE/EdgeOne.png" alt="Featured image of post 飞牛NAS使用EdgeOne实现双栈访问" /&gt;&lt;h1 id=&#34;-飞牛nas通过edgeone实现双栈访问指南&#34;&gt;🚀 飞牛NAS通过EdgeOne实现双栈访问指南
+&lt;/h1&gt;&lt;h2 id=&#34;-前言&#34;&gt;🌟 前言
+&lt;/h2&gt;&lt;p&gt;本教程将详细介绍如何配置飞牛NAS通过腾讯云EdgeOne实现IPv4/IPv6双栈访问，让您的NAS在任何网络环境下都能稳定连接。&lt;/p&gt;
+&lt;h2 id=&#34;-准备工作&#34;&gt;🛠️ 准备工作
+&lt;/h2&gt;&lt;p&gt;✅ &lt;strong&gt;硬件/软件要求&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;运行正常的飞牛NAS设备&lt;/li&gt;
+&lt;li&gt;注册域名（国内使用最好备案）&lt;/li&gt;
+&lt;li&gt;有公网IPV4或IPV6(文章使用IPV6演示)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-配置步骤&#34;&gt;🔧 配置步骤
+&lt;/h2&gt;&lt;h3 id=&#34;1-添加站点到edgeone&#34;&gt;1️⃣ 添加站点到EdgeOne
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;登录&lt;a class=&#34;link&#34; href=&#34;https://console.cloud.tencent.com/edgeone&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;腾讯云EdgeOne控制台&lt;/a&gt;国内使用就登陆国内站&lt;/li&gt;
+&lt;li&gt;点击 &lt;strong&gt;&amp;ldquo;站点管理&amp;rdquo; → &amp;ldquo;添加站点&amp;rdquo;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;输入域名（如：&lt;code&gt;yourdomain.com&lt;/code&gt;）&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759824657570_%e6%b7%bb%e5%8a%a0%e7%ab%99%e7%82%b9.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;添加站点.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;选择套餐并完成购买，&lt;a class=&#34;link&#34; href=&#34;https://edgeone.ai/zh/redemption&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;免费套餐领取链接&lt;/a&gt; &lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759824685547_%e9%80%89%e6%8b%a9%e5%a5%97%e9%a4%90.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;选择套餐.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;选择加速区域（大陆区域需要完成备案）&lt;/li&gt;
+&lt;li&gt;选择接入方式，支持CNAME和NS方式接入，推荐使用CNAME方式）&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759824715734_%e9%80%89%e6%8b%a9%e5%8a%a0%e9%80%9f%e5%8c%ba%e5%9f%9f%e5%8f%8a%e6%8e%a5%e5%85%a5%e6%96%b9%e5%bc%8f.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;选择加速区域及接入方式.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;进行归属权验证，验证完成就完成了站点的添加。&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759824748140_%e9%aa%8c%e8%af%81%e5%bd%92%e5%b1%9e%e6%9d%83.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;验证归属权.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;2-添加域名进行加速&#34;&gt;2️⃣ 添加域名进行加速
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;点击 &lt;strong&gt;“域名管理” → “添加域名”&lt;/strong&gt;&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759824962390_%e5%8a%a0%e9%80%9f%e8%ae%be%e7%bd%ae.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;加速设置.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;“加速域名”&lt;/strong&gt; 输入“fn&amp;quot;(根据自己情况填写) &lt;strong&gt;“IPV6访问”&lt;/strong&gt; 开启&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;“源站配置”&lt;/strong&gt; 可以输入IP地址或者域名（建议输入域名）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;“回源协议”&lt;/strong&gt; 根据实际情况选择&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;“回源端口”&lt;/strong&gt; 飞牛http协议填写5666，https协议填写5667&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;“回源HOST头”&lt;/strong&gt; 使用加速域名即可&lt;/li&gt;
+&lt;li&gt;推荐模板可以选择“网站加速”或者直接点击“下一步”&lt;/li&gt;
+&lt;li&gt;到域名托管商去添加CNAME解析记录，然后验证&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759826149694_%e6%b7%bb%e5%8a%a0%e8%a7%a3%e6%9e%90%e8%ae%b0%e5%bd%95.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;添加解析记录.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;3配置https证书&#34;&gt;3️⃣配置https证书
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;点击 &lt;strong&gt;“https配置”&lt;/strong&gt; 下的“编辑”&lt;br&gt;
+&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759826396575_%e6%88%90%e5%8a%9f.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;成功.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;勾选 &lt;strong&gt;“申请免费证书”&lt;/strong&gt; 然后点击“确定”&lt;br&gt;
+&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759826591911_https%e9%85%8d%e7%bd%ae.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https配置.png&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;查看加速域名状态，当显示“已生效”代表配置志完成。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;-最佳实践建议&#34;&gt;🌟 最佳实践建议
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;建议开启 &lt;strong&gt;“WebSocket”&lt;/strong&gt; 开启方式：点击 &lt;strong&gt;“站点加速” → “站点全局配置” → “网络优化” → “WebSocket”&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;源站配置建议使用 &lt;strong&gt;Lucky&lt;/strong&gt; 进行动态域名解析，避免IP地址变化后加速失效，可以参考&lt;a class=&#34;link&#34; href=&#34;https://myblog.xwgt.xyz/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8lucky%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;飞牛NAS使用Lucky实现动态域名解析&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;-互动时间你在配置中遇到什么问题欢迎在评论区留言讨论&#34;&gt;&lt;em&gt;📢 互动时间：你在配置中遇到什么问题？欢迎在评论区留言讨论！&lt;/em&gt;
+&lt;/h3&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

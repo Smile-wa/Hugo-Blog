@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>软件管理 on 「Smile_Wang」</title>
-        <link>http://localhost:1313/tags/%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86/</link>
+        <link>https://Smile-wa.github.io/tags/%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86/</link>
         <description>Recent content in 软件管理 on 「Smile_Wang」</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>「像素胃溃疡」</copyright>
-        <lastBuildDate>Sun, 05 Oct 2025 15:54:28 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 05 Oct 2025 15:54:28 +0800</lastBuildDate><atom:link href="https://Smile-wa.github.io/tags/%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>轻松管理软件包：UniGetUI——Windows上的高效软件管理工具</title>
-        <link>http://localhost:1313/p/%E8%BD%BB%E6%9D%BE%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6%E5%8C%85unigetuiwindows%E4%B8%8A%E7%9A%84%E9%AB%98%E6%95%88%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</link>
+        <link>https://Smile-wa.github.io/p/%E8%BD%BB%E6%9D%BE%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6%E5%8C%85unigetuiwindows%E4%B8%8A%E7%9A%84%E9%AB%98%E6%95%88%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</link>
         <pubDate>Sun, 05 Oct 2025 15:54:28 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E8%BD%BB%E6%9D%BE%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6%E5%8C%85unigetuiwindows%E4%B8%8A%E7%9A%84%E9%AB%98%E6%95%88%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</guid>
-        <description>&lt;img src="http://localhost:1313/p/%E8%BD%BB%E6%9D%BE%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6%E5%8C%85unigetuiwindows%E4%B8%8A%E7%9A%84%E9%AB%98%E6%95%88%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/UiGetUI.png" alt="Featured image of post 轻松管理软件包：UniGetUI——Windows上的高效软件管理工具" /&gt;&lt;h1 id=&#34;-轻松管理软件包unigetuiwindows上的高效软件管理工具&#34;&gt;🚀 轻松管理软件包：UniGetUI——Windows上的高效软件管理工具
+        <guid>https://Smile-wa.github.io/p/%E8%BD%BB%E6%9D%BE%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6%E5%8C%85unigetuiwindows%E4%B8%8A%E7%9A%84%E9%AB%98%E6%95%88%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</guid>
+        <description>&lt;img src="https://Smile-wa.github.io/p/%E8%BD%BB%E6%9D%BE%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6%E5%8C%85unigetuiwindows%E4%B8%8A%E7%9A%84%E9%AB%98%E6%95%88%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/UiGetUI.png" alt="Featured image of post 轻松管理软件包：UniGetUI——Windows上的高效软件管理工具" /&gt;&lt;h1 id=&#34;-轻松管理软件包unigetuiwindows上的高效软件管理工具&#34;&gt;🚀 轻松管理软件包：UniGetUI——Windows上的高效软件管理工具
 &lt;/h1&gt;&lt;h2 id=&#34;-引言&#34;&gt;📌 引言
 &lt;/h2&gt;&lt;p&gt;在Windows系统中，软件包管理一直是个令人头疼的问题。与Linux系统强大的包管理器不同，Windows用户通常需要手动下载安装程序或依赖第三方工具。今天我要向大家推荐一款优秀的开源软件包管理工具——UniGetUI，它让Windows上的软件安装和更新变得前所未有的简单。&lt;/p&gt;
 &lt;h2 id=&#34;-什么是unigetui&#34;&gt;🔍 什么是UniGetUI？
