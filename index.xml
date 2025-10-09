@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>「Smile_Wang」</title>
-        <link>https://Smile-wa.github.io/</link>
+        <link>https://myblog.xwgt.xyz/</link>
         <description>Recent content on 「Smile_Wang」</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>「像素胃溃疡」</copyright>
-        <lastBuildDate>Tue, 07 Oct 2025 11:27:45 +0800</lastBuildDate><atom:link href="https://Smile-wa.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 07 Oct 2025 11:27:45 +0800</lastBuildDate><atom:link href="https://myblog.xwgt.xyz/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>飞牛NAS使用EdgeOne实现双栈访问</title>
-        <link>https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8edgeone%E5%AE%9E%E7%8E%B0%E5%8F%8C%E6%A0%88%E8%AE%BF%E9%97%AE/</link>
+        <link>https://myblog.xwgt.xyz/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8edgeone%E5%AE%9E%E7%8E%B0%E5%8F%8C%E6%A0%88%E8%AE%BF%E9%97%AE/</link>
         <pubDate>Tue, 07 Oct 2025 11:27:45 +0800</pubDate>
         
-        <guid>https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8edgeone%E5%AE%9E%E7%8E%B0%E5%8F%8C%E6%A0%88%E8%AE%BF%E9%97%AE/</guid>
-        <description>&lt;img src="https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8edgeone%E5%AE%9E%E7%8E%B0%E5%8F%8C%E6%A0%88%E8%AE%BF%E9%97%AE/EdgeOne.png" alt="Featured image of post 飞牛NAS使用EdgeOne实现双栈访问" /&gt;&lt;h1 id=&#34;-飞牛nas通过edgeone实现双栈访问指南&#34;&gt;🚀 飞牛NAS通过EdgeOne实现双栈访问指南
+        <guid>https://myblog.xwgt.xyz/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8edgeone%E5%AE%9E%E7%8E%B0%E5%8F%8C%E6%A0%88%E8%AE%BF%E9%97%AE/</guid>
+        <description>&lt;img src="https://myblog.xwgt.xyz/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8edgeone%E5%AE%9E%E7%8E%B0%E5%8F%8C%E6%A0%88%E8%AE%BF%E9%97%AE/EdgeOne.png" alt="Featured image of post 飞牛NAS使用EdgeOne实现双栈访问" /&gt;&lt;h1 id=&#34;-飞牛nas通过edgeone实现双栈访问指南&#34;&gt;🚀 飞牛NAS通过EdgeOne实现双栈访问指南
 &lt;/h1&gt;&lt;h2 id=&#34;-前言&#34;&gt;🌟 前言
 &lt;/h2&gt;&lt;p&gt;本教程将详细介绍如何配置飞牛NAS通过腾讯云EdgeOne实现IPv4/IPv6双栈访问，让您的NAS在任何网络环境下都能稳定连接。&lt;/p&gt;
 &lt;h2 id=&#34;-准备工作&#34;&gt;🛠️ 准备工作
@@ -138,11 +138,11 @@
         </item>
         <item>
         <title>轻松管理软件包：UniGetUI——Windows上的高效软件管理工具</title>
-        <link>https://Smile-wa.github.io/p/%E8%BD%BB%E6%9D%BE%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6%E5%8C%85unigetuiwindows%E4%B8%8A%E7%9A%84%E9%AB%98%E6%95%88%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</link>
+        <link>https://myblog.xwgt.xyz/p/%E8%BD%BB%E6%9D%BE%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6%E5%8C%85unigetuiwindows%E4%B8%8A%E7%9A%84%E9%AB%98%E6%95%88%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</link>
         <pubDate>Sun, 05 Oct 2025 15:54:28 +0800</pubDate>
         
-        <guid>https://Smile-wa.github.io/p/%E8%BD%BB%E6%9D%BE%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6%E5%8C%85unigetuiwindows%E4%B8%8A%E7%9A%84%E9%AB%98%E6%95%88%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</guid>
-        <description>&lt;img src="https://Smile-wa.github.io/p/%E8%BD%BB%E6%9D%BE%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6%E5%8C%85unigetuiwindows%E4%B8%8A%E7%9A%84%E9%AB%98%E6%95%88%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/UiGetUI.png" alt="Featured image of post 轻松管理软件包：UniGetUI——Windows上的高效软件管理工具" /&gt;&lt;h1 id=&#34;-轻松管理软件包unigetuiwindows上的高效软件管理工具&#34;&gt;🚀 轻松管理软件包：UniGetUI——Windows上的高效软件管理工具
+        <guid>https://myblog.xwgt.xyz/p/%E8%BD%BB%E6%9D%BE%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6%E5%8C%85unigetuiwindows%E4%B8%8A%E7%9A%84%E9%AB%98%E6%95%88%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</guid>
+        <description>&lt;img src="https://myblog.xwgt.xyz/p/%E8%BD%BB%E6%9D%BE%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6%E5%8C%85unigetuiwindows%E4%B8%8A%E7%9A%84%E9%AB%98%E6%95%88%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/UiGetUI.png" alt="Featured image of post 轻松管理软件包：UniGetUI——Windows上的高效软件管理工具" /&gt;&lt;h1 id=&#34;-轻松管理软件包unigetuiwindows上的高效软件管理工具&#34;&gt;🚀 轻松管理软件包：UniGetUI——Windows上的高效软件管理工具
 &lt;/h1&gt;&lt;h2 id=&#34;-引言&#34;&gt;📌 引言
 &lt;/h2&gt;&lt;p&gt;在Windows系统中，软件包管理一直是个令人头疼的问题。与Linux系统强大的包管理器不同，Windows用户通常需要手动下载安装程序或依赖第三方工具。今天我要向大家推荐一款优秀的开源软件包管理工具——UniGetUI，它让Windows上的软件安装和更新变得前所未有的简单。&lt;/p&gt;
 &lt;h2 id=&#34;-什么是unigetui&#34;&gt;🔍 什么是UniGetUI？
@@ -226,11 +226,11 @@
         </item>
         <item>
         <title>飞牛docker部署网盘搜索神器-PanSou</title>
-        <link>https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bdocker%E9%83%A8%E7%BD%B2%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2%E7%A5%9E%E5%99%A8-pansou/</link>
+        <link>https://myblog.xwgt.xyz/p/%E9%A3%9E%E7%89%9Bdocker%E9%83%A8%E7%BD%B2%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2%E7%A5%9E%E5%99%A8-pansou/</link>
         <pubDate>Fri, 03 Oct 2025 16:26:20 +0800</pubDate>
         
-        <guid>https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bdocker%E9%83%A8%E7%BD%B2%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2%E7%A5%9E%E5%99%A8-pansou/</guid>
-        <description>&lt;img src="https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bdocker%E9%83%A8%E7%BD%B2%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2%E7%A5%9E%E5%99%A8-pansou/pansou.png" alt="Featured image of post 飞牛docker部署网盘搜索神器-PanSou" /&gt;&lt;h1 id=&#34;飞牛docker-compose图形化部署盘搜的完整教程&#34;&gt;飞牛Docker-Compose图形化部署盘搜的完整教程
+        <guid>https://myblog.xwgt.xyz/p/%E9%A3%9E%E7%89%9Bdocker%E9%83%A8%E7%BD%B2%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2%E7%A5%9E%E5%99%A8-pansou/</guid>
+        <description>&lt;img src="https://myblog.xwgt.xyz/p/%E9%A3%9E%E7%89%9Bdocker%E9%83%A8%E7%BD%B2%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2%E7%A5%9E%E5%99%A8-pansou/pansou.png" alt="Featured image of post 飞牛docker部署网盘搜索神器-PanSou" /&gt;&lt;h1 id=&#34;飞牛docker-compose图形化部署盘搜的完整教程&#34;&gt;飞牛Docker-Compose图形化部署盘搜的完整教程
 &lt;/h1&gt;&lt;h2 id=&#34;前言&#34;&gt;🧭前言
 &lt;/h2&gt;&lt;p&gt;飞牛NAS（FeiNiu NAS）是一款国产优秀的NAS操作系统，内置了强大的Docker管理功能。本教程将详细介绍如何利用飞牛NAS的图形化界面，通过Docker-Compose方式一键部署盘搜（PanSearch）服务。&lt;/p&gt;
 &lt;h2 id=&#34;-准备工作&#34;&gt;🧰 准备工作
@@ -349,11 +349,11 @@ http://你的NAS-IP:1080&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1759
         </item>
         <item>
         <title>在飞牛NAS上部署Omni-Tools：打造您的全能工具箱</title>
-        <link>https://Smile-wa.github.io/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/</link>
+        <link>https://myblog.xwgt.xyz/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/</link>
         <pubDate>Fri, 03 Oct 2025 11:22:28 +0800</pubDate>
         
-        <guid>https://Smile-wa.github.io/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/</guid>
-        <description>&lt;img src="https://Smile-wa.github.io/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/omni.png" alt="Featured image of post 在飞牛NAS上部署Omni-Tools：打造您的全能工具箱" /&gt;&lt;h1 id=&#34;在飞牛nas上部署omni-tools打造您的全能工具箱&#34;&gt;在飞牛NAS上部署Omni-Tools：打造您的全能工具箱
+        <guid>https://myblog.xwgt.xyz/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/</guid>
+        <description>&lt;img src="https://myblog.xwgt.xyz/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/omni.png" alt="Featured image of post 在飞牛NAS上部署Omni-Tools：打造您的全能工具箱" /&gt;&lt;h1 id=&#34;在飞牛nas上部署omni-tools打造您的全能工具箱&#34;&gt;在飞牛NAS上部署Omni-Tools：打造您的全能工具箱
 &lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Omni-Tools&lt;/strong&gt; - 一个开箱即用的多功能工具集，提供文件转换、数据处理等各类实用功能&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;飞牛NAS&lt;/strong&gt; - 国产轻量级NAS系统，提供Docker容器支持&lt;/li&gt;
@@ -465,11 +465,11 @@ Omni-Tools界面预览&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/175946
         </item>
         <item>
         <title>飞牛NAS使用Lucky实现动态域名解析</title>
-        <link>https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8lucky%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</link>
+        <link>https://myblog.xwgt.xyz/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8lucky%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</link>
         <pubDate>Wed, 01 Oct 2025 11:27:58 +0800</pubDate>
         
-        <guid>https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8lucky%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</guid>
-        <description>&lt;img src="https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8lucky%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/Fnos.png" alt="Featured image of post 飞牛NAS使用Lucky实现动态域名解析" /&gt;&lt;h1 id=&#34;使用lucky实现飞牛nas动态域名解析教程&#34;&gt;使用Lucky实现飞牛NAS动态域名解析教程
+        <guid>https://myblog.xwgt.xyz/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8lucky%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</guid>
+        <description>&lt;img src="https://myblog.xwgt.xyz/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8lucky%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/Fnos.png" alt="Featured image of post 飞牛NAS使用Lucky实现动态域名解析" /&gt;&lt;h1 id=&#34;使用lucky实现飞牛nas动态域名解析教程&#34;&gt;使用Lucky实现飞牛NAS动态域名解析教程
 &lt;/h1&gt;&lt;h2 id=&#34;一前言&#34;&gt;一、前言
 &lt;/h2&gt;&lt;p&gt;飞牛NAS（FeiNiu NAS）作为国产新兴的NAS系统，许多用户希望通过域名远程访问设备。但家庭宽带通常没有固定公网IP，这时可以通过&lt;strong&gt;Lucky&lt;/strong&gt;（原&lt;code&gt;ddns-go&lt;/code&gt;）工具实现动态域名解析。&lt;/p&gt;
 &lt;h2 id=&#34;-二准备工作&#34;&gt;📦 二、准备工作
@@ -655,11 +655,11 @@ http://你的NAS局域网IP:16601&lt;/li&gt;
         </item>
         <item>
         <title>Windows11系统安装教程</title>
-        <link>https://Smile-wa.github.io/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</link>
+        <link>https://myblog.xwgt.xyz/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</link>
         <pubDate>Mon, 29 Sep 2025 16:28:18 +0800</pubDate>
         
-        <guid>https://Smile-wa.github.io/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</guid>
-        <description>&lt;img src="https://Smile-wa.github.io/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/Windows11.png" alt="Featured image of post Windows11系统安装教程" /&gt;&lt;h1 id=&#34;windows-11-安装指南从准备到完成的全流程&#34;&gt;Windows 11 安装指南：从准备到完成的全流程
+        <guid>https://myblog.xwgt.xyz/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</guid>
+        <description>&lt;img src="https://myblog.xwgt.xyz/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/Windows11.png" alt="Featured image of post Windows11系统安装教程" /&gt;&lt;h1 id=&#34;windows-11-安装指南从准备到完成的全流程&#34;&gt;Windows 11 安装指南：从准备到完成的全流程
 &lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://img.xiaowtx.dpdns.org/file/1758361044483_R-C.png&#34;
 	
 	
@@ -1020,11 +1020,11 @@ http://你的NAS局域网IP:16601&lt;/li&gt;
         </item>
         <item>
         <title>使用Ventoy制作启动U盘</title>
-        <link>https://Smile-wa.github.io/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/</link>
+        <link>https://myblog.xwgt.xyz/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/</link>
         <pubDate>Sat, 27 Sep 2025 14:57:04 +0800</pubDate>
         
-        <guid>https://Smile-wa.github.io/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/</guid>
-        <description>&lt;img src="https://Smile-wa.github.io/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/ventoy.png" alt="Featured image of post 使用Ventoy制作启动U盘" /&gt;&lt;h1 id=&#34;-使用ventoy制作万能u盘启动盘一u在手装遍所有系统&#34;&gt;🔥 使用Ventoy制作万能U盘启动盘：一U在手，装遍所有系统！
+        <guid>https://myblog.xwgt.xyz/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/</guid>
+        <description>&lt;img src="https://myblog.xwgt.xyz/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/ventoy.png" alt="Featured image of post 使用Ventoy制作启动U盘" /&gt;&lt;h1 id=&#34;-使用ventoy制作万能u盘启动盘一u在手装遍所有系统&#34;&gt;🔥 使用Ventoy制作万能U盘启动盘：一U在手，装遍所有系统！
 &lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;无需反复格式化，一次制作永久使用！轻松管理多个系统镜像的终极解决方案&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.ventoy.net/static/img/screen/screen_uefi.png&#34;
@@ -1300,40 +1300,40 @@ Ventoy方式 → 只需1个U盘，20分钟完成部署&lt;/p&gt;
         </item>
         <item>
         <title>归档 | Archives</title>
-        <link>https://Smile-wa.github.io/archives/</link>
+        <link>https://myblog.xwgt.xyz/archives/</link>
         <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://Smile-wa.github.io/archives/</guid>
+        <guid>https://myblog.xwgt.xyz/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>关于 | About</title>
-        <link>https://Smile-wa.github.io/%E5%85%B3%E4%BA%8E-about/</link>
+        <link>https://myblog.xwgt.xyz/%E5%85%B3%E4%BA%8E-about/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://Smile-wa.github.io/%E5%85%B3%E4%BA%8E-about/</guid>
+        <guid>https://myblog.xwgt.xyz/%E5%85%B3%E4%BA%8E-about/</guid>
         <description>&lt;p&gt;👨💻 野生科技宅 | 📦 开箱手速比退货快 | 🤖 关注我，一起为数码产品交学费（不是）」&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>搜索 | Search</title>
-        <link>https://Smile-wa.github.io/search/</link>
+        <link>https://myblog.xwgt.xyz/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://Smile-wa.github.io/search/</guid>
+        <guid>https://myblog.xwgt.xyz/search/</guid>
         <description></description>
         </item>
         <item>
         <title>友链 | Links</title>
-        <link>https://Smile-wa.github.io/%E5%8F%8B%E9%93%BE-links/</link>
+        <link>https://myblog.xwgt.xyz/%E5%8F%8B%E9%93%BE-links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://Smile-wa.github.io/%E5%8F%8B%E9%93%BE-links/</guid>
+        <guid>https://myblog.xwgt.xyz/%E5%8F%8B%E9%93%BE-links/</guid>
         <description>&lt;h1 id=&#34;友链介绍&#34;&gt;友链介绍
-&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://Smile-wa.github.io/%E5%8F%8B%E9%93%BE-links/nikon.jpg&#34;
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://myblog.xwgt.xyz/%E5%8F%8B%E9%93%BE-links/nikon.jpg&#34;
 	width=&#34;2720&#34;
 	height=&#34;1700&#34;
-	srcset=&#34;https://Smile-wa.github.io/%E5%8F%8B%E9%93%BE-links/nikon_hu_64e23ebce41c400.jpg 480w, https://Smile-wa.github.io/%E5%8F%8B%E9%93%BE-links/nikon_hu_913c5d70df210529.jpg 1024w&#34;
+	srcset=&#34;https://myblog.xwgt.xyz/%E5%8F%8B%E9%93%BE-links/nikon_hu_64e23ebce41c400.jpg 480w, https://myblog.xwgt.xyz/%E5%8F%8B%E9%93%BE-links/nikon_hu_913c5d70df210529.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

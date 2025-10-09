@@ -2,124 +2,124 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://Smile-wa.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-10-07T11:27:45+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://Smile-wa.github.io/en/"
+                href="http://localhost:1313/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://Smile-wa.github.io/"
+                href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>https://Smile-wa.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-10-07T11:27:45+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://Smile-wa.github.io/en/categories/"
+                href="http://localhost:1313/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://Smile-wa.github.io/categories/"
+                href="http://localhost:1313/categories/"
                 />
   </url><url>
-    <loc>https://Smile-wa.github.io/tags/docker/</loc>
+    <loc>http://localhost:1313/tags/docker/</loc>
     <lastmod>2025-10-07T11:27:45+08:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/tags/edgeone/</loc>
+    <loc>http://localhost:1313/tags/edgeone/</loc>
     <lastmod>2025-10-07T11:27:45+08:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/tags/ipv6/</loc>
+    <loc>http://localhost:1313/tags/ipv6/</loc>
     <lastmod>2025-10-07T11:27:45+08:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2025-10-07T11:27:45+08:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-10-07T11:27:45+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://Smile-wa.github.io/en/tags/"
+                href="http://localhost:1313/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://Smile-wa.github.io/tags/"
+                href="http://localhost:1313/tags/"
                 />
   </url><url>
-    <loc>https://Smile-wa.github.io/categories/%E9%A3%9E%E7%89%9Bnas/</loc>
+    <loc>http://localhost:1313/categories/%E9%A3%9E%E7%89%9Bnas/</loc>
     <lastmod>2025-10-07T11:27:45+08:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/tags/%E9%A3%9E%E7%89%9Bnas/</loc>
+    <loc>http://localhost:1313/tags/%E9%A3%9E%E7%89%9Bnas/</loc>
     <lastmod>2025-10-07T11:27:45+08:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8edgeone%E5%AE%9E%E7%8E%B0%E5%8F%8C%E6%A0%88%E8%AE%BF%E9%97%AE/</loc>
+    <loc>http://localhost:1313/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8edgeone%E5%AE%9E%E7%8E%B0%E5%8F%8C%E6%A0%88%E8%AE%BF%E9%97%AE/</loc>
     <lastmod>2025-10-07T11:27:45+08:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/tags/%E5%8F%8C%E6%A0%88%E8%AE%BF%E9%97%AE/</loc>
+    <loc>http://localhost:1313/tags/%E5%8F%8C%E6%A0%88%E8%AE%BF%E9%97%AE/</loc>
     <lastmod>2025-10-07T11:27:45+08:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/p/%E8%BD%BB%E6%9D%BE%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6%E5%8C%85unigetuiwindows%E4%B8%8A%E7%9A%84%E9%AB%98%E6%95%88%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</loc>
+    <loc>http://localhost:1313/p/%E8%BD%BB%E6%9D%BE%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6%E5%8C%85unigetuiwindows%E4%B8%8A%E7%9A%84%E9%AB%98%E6%95%88%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2025-10-05T15:54:28+08:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/</loc>
+    <loc>http://localhost:1313/categories/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/</loc>
     <lastmod>2025-10-05T15:54:28+08:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/tags/%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86/</loc>
+    <loc>http://localhost:1313/tags/%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86/</loc>
     <lastmod>2025-10-05T15:54:28+08:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bdocker%E9%83%A8%E7%BD%B2%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2%E7%A5%9E%E5%99%A8-pansou/</loc>
+    <loc>http://localhost:1313/p/%E9%A3%9E%E7%89%9Bdocker%E9%83%A8%E7%BD%B2%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2%E7%A5%9E%E5%99%A8-pansou/</loc>
     <lastmod>2025-10-03T16:26:20+08:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/tags/%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2/</loc>
+    <loc>http://localhost:1313/tags/%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2/</loc>
     <lastmod>2025-10-03T16:26:20+08:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/tags/%E5%B7%A5%E5%85%B7%E7%AE%B1/</loc>
+    <loc>http://localhost:1313/tags/%E5%B7%A5%E5%85%B7%E7%AE%B1/</loc>
     <lastmod>2025-10-03T11:22:28+08:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/</loc>
+    <loc>http://localhost:1313/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/</loc>
     <lastmod>2025-10-03T11:22:28+08:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8lucky%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</loc>
+    <loc>http://localhost:1313/p/%E9%A3%9E%E7%89%9Bnas%E4%BD%BF%E7%94%A8lucky%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</loc>
     <lastmod>2025-10-01T11:27:58+08:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/tags/windows11/</loc>
+    <loc>http://localhost:1313/tags/windows11/</loc>
     <lastmod>2025-09-29T16:28:18+08:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</loc>
+    <loc>http://localhost:1313/p/windows11%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2025-09-29T16:28:18+08:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/categories/%E6%95%99%E7%A8%8B%E5%88%86%E4%BA%AB/</loc>
+    <loc>http://localhost:1313/categories/%E6%95%99%E7%A8%8B%E5%88%86%E4%BA%AB/</loc>
     <lastmod>2025-09-29T16:28:18+08:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/tags/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/</loc>
+    <loc>http://localhost:1313/tags/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/</loc>
     <lastmod>2025-09-29T16:28:18+08:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/tags/ventoy/</loc>
+    <loc>http://localhost:1313/tags/ventoy/</loc>
     <lastmod>2025-09-27T14:57:04+08:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/tags/%E5%90%AF%E5%8A%A8u%E7%9B%98/</loc>
+    <loc>http://localhost:1313/tags/%E5%90%AF%E5%8A%A8u%E7%9B%98/</loc>
     <lastmod>2025-09-27T14:57:04+08:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/</loc>
+    <loc>http://localhost:1313/p/%E4%BD%BF%E7%94%A8ventoy%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8u%E7%9B%98/</loc>
     <lastmod>2025-09-27T14:57:04+08:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/page/</loc>
+    <loc>http://localhost:1313/page/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/archives/</loc>
+    <loc>http://localhost:1313/archives/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Smile-wa.github.io/%E5%85%B3%E4%BA%8E-about/</loc>
+    <loc>http://localhost:1313/%E5%85%B3%E4%BA%8E-about/</loc>
   </url><url>
-    <loc>https://Smile-wa.github.io/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url><url>
-    <loc>https://Smile-wa.github.io/%E5%8F%8B%E9%93%BE-links/</loc>
+    <loc>http://localhost:1313/%E5%8F%8B%E9%93%BE-links/</loc>
   </url>
 </urlset>
