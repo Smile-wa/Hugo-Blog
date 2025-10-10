@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>工具箱 on 「Smile_Wang」</title>
-        <link>https://myblog.xwgt.xyz/tags/%E5%B7%A5%E5%85%B7%E7%AE%B1/</link>
+        <link>http://localhost:1313/tags/%E5%B7%A5%E5%85%B7%E7%AE%B1/</link>
         <description>Recent content in 工具箱 on 「Smile_Wang」</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>「像素胃溃疡」</copyright>
-        <lastBuildDate>Fri, 03 Oct 2025 11:22:28 +0800</lastBuildDate><atom:link href="https://myblog.xwgt.xyz/tags/%E5%B7%A5%E5%85%B7%E7%AE%B1/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 03 Oct 2025 11:22:28 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%B7%A5%E5%85%B7%E7%AE%B1/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>在飞牛NAS上部署Omni-Tools：打造您的全能工具箱</title>
-        <link>https://myblog.xwgt.xyz/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/</link>
+        <link>http://localhost:1313/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/</link>
         <pubDate>Fri, 03 Oct 2025 11:22:28 +0800</pubDate>
         
-        <guid>https://myblog.xwgt.xyz/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/</guid>
-        <description>&lt;img src="https://myblog.xwgt.xyz/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/omni.png" alt="Featured image of post 在飞牛NAS上部署Omni-Tools：打造您的全能工具箱" /&gt;&lt;h1 id=&#34;在飞牛nas上部署omni-tools打造您的全能工具箱&#34;&gt;在飞牛NAS上部署Omni-Tools：打造您的全能工具箱
+        <guid>http://localhost:1313/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E5%9C%A8%E9%A3%9E%E7%89%9Bnas%E4%B8%8A%E9%83%A8%E7%BD%B2omni-tools%E6%89%93%E9%80%A0%E6%82%A8%E7%9A%84%E5%85%A8%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/omni.png" alt="Featured image of post 在飞牛NAS上部署Omni-Tools：打造您的全能工具箱" /&gt;&lt;h1 id=&#34;在飞牛nas上部署omni-tools打造您的全能工具箱&#34;&gt;在飞牛NAS上部署Omni-Tools：打造您的全能工具箱
 &lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Omni-Tools&lt;/strong&gt; - 一个开箱即用的多功能工具集，提供文件转换、数据处理等各类实用功能&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;飞牛NAS&lt;/strong&gt; - 国产轻量级NAS系统，提供Docker容器支持&lt;/li&gt;

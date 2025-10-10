@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on 「Smile_Wang」</title>
-        <link>https://myblog.xwgt.xyz/categories/</link>
+        <link>http://localhost:1313/categories/</link>
         <description>Recent content in Categories on 「Smile_Wang」</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>「像素胃溃疡」</copyright>
-        <lastBuildDate>Tue, 07 Oct 2025 11:27:45 +0800</lastBuildDate><atom:link href="https://myblog.xwgt.xyz/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 07 Oct 2025 11:27:45 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>飞牛NAS</title>
-        <link>https://myblog.xwgt.xyz/categories/%E9%A3%9E%E7%89%9Bnas/</link>
+        <link>http://localhost:1313/categories/%E9%A3%9E%E7%89%9Bnas/</link>
         <pubDate>Tue, 07 Oct 2025 11:27:45 +0800</pubDate>
         
-        <guid>https://myblog.xwgt.xyz/categories/%E9%A3%9E%E7%89%9Bnas/</guid>
-        <description>&lt;img src="https://myblog.xwgt.xyz/categories/%E9%A3%9E%E7%89%9Bnas/Fnos.png" alt="Featured image of post 飞牛NAS" /&gt;</description>
+        <guid>http://localhost:1313/categories/%E9%A3%9E%E7%89%9Bnas/</guid>
+        <description>&lt;img src="http://localhost:1313/categories/%E9%A3%9E%E7%89%9Bnas/Fnos.png" alt="Featured image of post 飞牛NAS" /&gt;</description>
         </item>
         <item>
         <title>软件分享</title>
-        <link>https://myblog.xwgt.xyz/categories/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/</link>
+        <link>http://localhost:1313/categories/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/</link>
         <pubDate>Sun, 05 Oct 2025 15:54:28 +0800</pubDate>
         
-        <guid>https://myblog.xwgt.xyz/categories/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/</guid>
-        <description>&lt;img src="https://myblog.xwgt.xyz/categories/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/UiGetUI.png" alt="Featured image of post 软件分享" /&gt;</description>
+        <guid>http://localhost:1313/categories/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/</guid>
+        <description>&lt;img src="http://localhost:1313/categories/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/UiGetUI.png" alt="Featured image of post 软件分享" /&gt;</description>
         </item>
         <item>
         <title>教程分享</title>
-        <link>https://myblog.xwgt.xyz/categories/%E6%95%99%E7%A8%8B%E5%88%86%E4%BA%AB/</link>
+        <link>http://localhost:1313/categories/%E6%95%99%E7%A8%8B%E5%88%86%E4%BA%AB/</link>
         <pubDate>Mon, 29 Sep 2025 16:28:18 +0800</pubDate>
         
-        <guid>https://myblog.xwgt.xyz/categories/%E6%95%99%E7%A8%8B%E5%88%86%E4%BA%AB/</guid>
-        <description>&lt;img src="https://myblog.xwgt.xyz/categories/%E6%95%99%E7%A8%8B%E5%88%86%E4%BA%AB/win11.jpg" alt="Featured image of post 教程分享" /&gt;</description>
+        <guid>http://localhost:1313/categories/%E6%95%99%E7%A8%8B%E5%88%86%E4%BA%AB/</guid>
+        <description>&lt;img src="http://localhost:1313/categories/%E6%95%99%E7%A8%8B%E5%88%86%E4%BA%AB/win11.jpg" alt="Featured image of post 教程分享" /&gt;</description>
         </item>
         
     </channel>
