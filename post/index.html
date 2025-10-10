@@ -6,11 +6,7 @@
 
 <link rel='canonical' href='https://myblog.xwgt.xyz/post/'>
 
-<<<<<<< HEAD
-<link rel="stylesheet" href="/scss/style.min.c8df4cacf6a8cf0cac25f3df20ecfc8783ee859b5efaeb69e1e7b9c82c2cc602.css"><meta property='og:title' content="Posts">
-=======
 <link rel="stylesheet" href="/scss/style.min.0d19b87d75b1ea4b7756bc260ec5527ba54204d0b8d26738591fdbcbfd7c16de.css"><meta property='og:title' content="Posts">
->>>>>>> c1f8b56 (2025-10-10)
 <meta property='og:description' content="消化所有难啃的科技干货，输出易吸收的数码营养剂！">
 <meta property='og:url' content='https://myblog.xwgt.xyz/post/'>
 <meta property='og:site_name' content='「Smile_Wang」'>
@@ -24,7 +20,9 @@
     <script>
         (function() {
             const colorSchemeKey = 'StackColorScheme';
-            localStorage.setItem(colorSchemeKey, "light");
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
         })();
     </script><script>
     (function() {
@@ -207,8 +205,6 @@
         <li class="menu-bottom-section">
             <ol class="menu">
 
-<<<<<<< HEAD
-=======
                 
                     <li id="dark-mode-toggle">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -229,7 +225,6 @@
 
                         <span>暗色模式</span>
                     </li>
->>>>>>> c1f8b56 (2025-10-10)
                 
             </ol>
         </li>
